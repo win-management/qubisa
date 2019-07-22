@@ -1,0 +1,147 @@
+#main-slide {
+  margin-top: 82px;
+}
+@media (max-width: 767px) {
+  #main-slide {
+    margin-top: 66px;
+  }
+}
+#main-slide .owl-carousel .item .download-app {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+@media (max-width: 767px) {
+  #main-slide .owl-carousel .item .download-app {
+    display: none !important;
+  }
+}
+#main-slide .owl-carousel .item .download-app li:first-child {
+  padding-right: 5px;
+}
+#main-slide .owl-carousel .item .download-app li:last-child {
+  padding-left: 5px;
+}
+#main-slide .owl-carousel .item .download-app li img {
+  width: 100px;
+}
+@media (width: 768px) {
+  #main-slide .owl-carousel .item .download-app li img {
+    width: 80px;
+  }
+}
+#main-slide .owl-carousel .owl-dots {
+  margin-top: 0px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+#main-slide .owl-carousel .owl-dots .owl-dot span {
+  border: 1px solid #555555;
+  width: 12px;
+  height: 12px;
+}
+#main-slide .owl-carousel .owl-dots .owl-dot.active span {
+  background: #555555;
+}
+#main-slide .owl-nav {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 43%;
+  width: 100%;
+}
+#main-slide .owl-nav button {
+  position: absolute;
+  outline: none;
+}
+#main-slide .owl-nav button.owl-next {
+  right: 15px;
+}
+#main-slide .owl-nav button.owl-prev {
+  left: 15px;
+}
+#main-slide .owl-nav button:hover {
+  background: none;
+}
+#main-slide .owl-nav button img {
+  width: 15px;
+}
+@media (min-width: 1366px) {
+  #main-slide .owl-nav button img {
+    width: 25px;
+  }
+}
+
+#filter > ul {
+  border: 0.5px solid #ddd;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
+  box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
+}
+@media (max-width: 767px) {
+  #filter > ul {
+    display: none;
+  }
+}
+#filter > ul > li:first-child {
+  padding: 15px;
+  background-color: #F11515;
+  color: #ffffff;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #ddd;
+}
+#filter > ul > li:last-child {
+  margin-bottom: 50px;
+}
+#filter > ul > li > ul {
+  padding: 15px 0px;
+  color: #0a0a0a;
+}
+#filter > ul > li > ul > li {
+  padding: 0px 15px;
+}
+#filter > ul > li > ul > li:first-child {
+  font-weight: 600;
+}
+#filter > ul > li > ul > li p {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#filter > ul > li > ul > li p:first-child {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 24px;
+}
+#filter > ul > li > ul > li.sub-filter {
+  display: none;
+}
+#filter > ul > li > ul > li.toggle a {
+  font-weight: 600;
+  color: inherit;
+}
+
+.card-view > p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f11515;
+  margin-bottom: 0px;
+}
+.card-view .card-item div {
+  border: 0.5px solid #ddd;
+  -webkit-box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
+  -moz-box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
+  box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
+}
+.card-view .card-item div p {
+  font-size: 0.875rem;
+  color: #070001;
+}
+.card-view .card-item div p:first-child {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=home.css.map */

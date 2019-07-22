@@ -1,0 +1,184 @@
+@import "../fonts/fontawesome/css/fontawesome.min.css";
+@import "../fonts/fontawesome/css/brands.min.css";
+@import "../fonts/fontawesome/css/solid.min.css";
+@import "../fonts/themify/themify-icons.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+	color:#222;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	background: #981023; /* Old browsers */
+	background: -moz-linear-gradient(left, #981023 0%, #d62432 50%, #e82a36 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #981023 0%,#d62432 50%,#e82a36 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #981023 0%,#d62432 50%,#e82a36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#981023', endColorstr='#e82a36',GradientType=1 ); /* IE6-9 */
+
+	.navbar-brand, .navbar-text{
+		color: rgba(255,255,255,.8) !important;
+		img{
+			width:170px;
+			@media (max-width: 767px) { 
+				width:120px;
+			}
+		}
+	}
+	.navbar-nav{
+		.nav-link{
+			color: #ffffff !important;
+		}
+	} 
+
+	.ul-search{
+		@media (max-width: 767px) { 
+			display:none;
+		}
+	}
+
+	.nav-item{
+		&.active,&:focus,&:hover{
+			.nav-link{
+				color: #ffffff !important;
+			}
+		}
+
+		p{
+			color: #ffffff !important;
+			position: relative;
+    		top: 7px;
+		}
+
+		.form-search{
+			width:400px;
+			@media (max-width: 768px) { 
+				width:100%;
+			}
+			div{
+				border-radius:20px;
+				padding: .5rem 1rem;
+				background-color:#fff;
+				/*color:#981023;*/
+				color: #222222;
+				font-weight: 600;
+				font-size:1.125rem;
+				border: none;
+				i{
+					color:#981023;
+					font-weight: bold;
+					margin-right: 5px;
+					position: relative;
+					top: 2px;
+				}
+				input{
+					width: calc(100% - 2rem);
+					border: none;
+					outline: none;
+					font-weight: 600;
+					&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+						color: #981023;
+						font-weight: 600;
+						opacity: 1; /* Firefox */
+					}
+					
+					&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+						color: #981023;
+						font-weight: 600;
+					}
+					
+					&::-ms-input-placeholder { /* Microsoft Edge */
+						color: #981023;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+
+	.navbar-light{
+		.navbar-toggler{
+			color: #fff;
+			border-color: #fff;
+		}
+	}
+}
+
+footer{
+	ul{
+		li{
+			display: inline-block;
+			a{
+				margin-bottom: .5rem;
+				font-family: inherit;
+				font-weight: 500;
+				line-height: 1.2;
+				color:#222222;
+				font-size: 1.1rem;
+				@media (width: 768px) {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+	.col-md-8{
+		ul{
+			li{
+				padding-right: 10px;
+				&:first-child{
+					@media (min-width: 767px) { 
+						border-right: 2.5px solid #222;
+					}
+				}
+				&:nth-child(2){
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+	.col-md-4{
+		@media (min-width: 768px) { 
+			padding-left: 3rem!important;
+		}
+		@media (min-width: 1024px) { 
+			padding-left: 5rem!important;
+		}
+		@media (min-width: 1200px) { 
+			padding-left: 9rem!important;
+		}
+		ul{
+			&.download-app{
+				li{
+					&:first-child{
+						padding-right: 5px;
+					}
+					&:last-child{
+						padding-left: 5px;
+					}
+					img{
+						width:100px;
+						@media (width: 768px) { 
+							width: 80px;
+						}	
+					}
+				}
+			}
+			&.social-media{
+				li{
+					margin-right:5px;
+					img{
+						width:25px;
+					}	
+				}
+			}
+		}
+	}
+}
+
+ul{
+	&.ui-autocomplete{
+		position: fixed;
+		z-index:9999;
+	}
+}
+
