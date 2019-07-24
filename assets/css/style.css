@@ -199,7 +199,7 @@ footer .col-md-4 ul.download-app li:last-child {
 footer .col-md-4 ul.download-app li img {
   width: 100px;
 }
-@media (width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   footer .col-md-4 ul.download-app li img {
     width: 80px;
   }
@@ -212,6 +212,12 @@ footer .col-md-4 ul.social-media li {
 }
 footer .col-md-4 ul.social-media li img {
   width: 25px;
+}
+footer .col-md-4 ul.social-media li:first-child img {
+  width: 30px;
+}
+footer .col-md-4 ul.social-media li:nth-child(3) img {
+  width: 28px;
 }
 footer .col-md-4 .footer-copyright {
   font-size: 0.875rem;
