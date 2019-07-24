@@ -15,9 +15,9 @@
 		<div class="container">
 			<h6 class="pb-2 mb-0 title">Popular Category</h6>
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-coaching.png') ?>" alt="">
 								<div>Coaching</div>
@@ -25,9 +25,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-communication.png') ?>" alt="">
 								<div>Communications</div>
@@ -35,9 +35,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-cs.png') ?>" alt="">
 								<div>Customer Service</div>
@@ -45,9 +45,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-sales-marketing.png') ?>" alt="">
 								<div>Sales & Marketing</div>
@@ -55,9 +55,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-electronic.png') ?>" alt="">
 								<div>Electronic</div>
@@ -65,9 +65,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="#!">
+						<a href="<?php echo base_url('course')?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-english.png') ?>" alt="">
 								<div>English</div>

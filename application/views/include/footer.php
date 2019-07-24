@@ -8,7 +8,7 @@
 			<option>English</option>
 		</select>
 		<ul class="list-unstyled">
-			<li><a href="<?php echo gDomainName."/aboutus"?>">Tentang kami</a></li>
+			<li><a href="<?php echo base_url('aboutus')?>">Tentang kami</a></li>
 			<li><a href="#!">Apa yang Anda dapat</a></li>
 		</ul>
 		<ul class="list-unstyled">

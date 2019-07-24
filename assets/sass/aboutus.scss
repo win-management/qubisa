@@ -1,0 +1,133 @@
+#main-slide{
+	margin-top: 82px;
+	@media (max-width: 767px) { 
+		margin-top: 66px;
+	}
+	img{
+		width: 100%;
+	}
+	>div{
+		position: relative;
+	}
+	div{
+		&.title{
+			width: 100%;
+			background-color: #aa222f;
+			opacity: 0.84;
+			border: solid 0.5px #707070;
+			position: absolute;
+			bottom: 0px;
+			p{
+				margin-bottom: 0px;
+				font-size: 21px;
+				font-weight: 600;
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+#about-us, #contact-us{
+	background-color: #f1f2f2;
+	font-weight: 600;
+}
+
+#key-people, #our-partner{
+	margin-bottom: 5rem !important;
+	h6{
+		font-weight: 700;
+		font-size: 18px;
+	}
+}
+
+#about-us{
+	.row{
+		>div{
+			margin-bottom: 12px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			p{
+				&:first-child{
+					font-weight: 700;
+					font-size: 18px;
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}
+}
+
+#key-people, #peopleModalCenter{
+	.item-people{
+		img{
+			display: block;
+			width: 130px !important;
+			margin: 30px 0px 10px 0px;
+			border: 1px solid #ddd;
+			cursor: pointer;
+			@media (max-width: 767px) { 
+				width: 110px !important;
+			}
+		}
+		div{
+			p{
+				cursor: pointer;
+				&:first-child{
+					font-weight: 600;
+					margin-bottom: 3px;
+				}
+				&.desciption{
+					font-size: 13px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
+
+#our-partner{
+	margin-bottom: 100px !important;
+	.row{
+		>div{
+			img{
+				display: block;
+				width: 150px;
+				margin: 20px 0px;
+			}
+			&:last-child{
+				img{
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+#contact-us{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	div{
+		p{
+			font-size: 18px;
+			font-weight: 600;
+		}
+		.btn-primary{
+			margin: 0 auto;
+			background-color: #aa222f;
+			color: #ffffff;
+			cursor: pointer;
+			border-color: #aa222f;
+			border-radius: 16px;
+    		padding: 14px 4rem;
+			font-weight: 600;
+		}
+	}
+}
+
+#peopleModalCenter{
+	.close{
+		position: absolute;
+		right: 20px;
+	}
+}

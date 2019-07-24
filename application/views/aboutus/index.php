@@ -7,13 +7,193 @@
 <body>
 	<?php $this->load->view("include/header.php") ?>
 
-	<section id="content" class="pt-2">
-		<div class="container my-5">
-			<div class="row">
-				
+	<section id="main-slide">
+		<div>
+			<picture>
+				<source media="(max-width: 767px)" srcset="<?php echo base_url('assets/img/aboutus/main-image-m.jpg') ?>">
+				<img src="<?php echo base_url('assets/img/aboutus/main-image.jpg') ?>" alt="">
+			</picture>
+			<div class="title">
+				<div class="container">
+					<div class="row">
+						<p class="col-12 py-4">About QuBisa</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+
+	<section id="about-us" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 our-mission">
+					<p>Misi Kami</p>
+					<ul class="list-unstyled">
+						<li>Tingkatkan akses ke pendidikan berkualitas tinggi untuk semua orang, dimana saja.</li>
+						<li>Tingkatkan pengajaran dan pembelajaran di kampus dan online.</li>
+						<li>Memajukan pengajaran dan pembelajaran melalui penelitian.</li>
+						
+					</ul>
+				</div>
+				<div class="col-12 our-history">
+					<p>Sejarah Kami</p>
+					<p class="desc">QuBisa platform terpercaya untuk pendidikan dan pembelajaran. Didirikan oleh Harvard dan MIT. QuBisa adalah rumah bagi lebih dari 20 juta peserta didik, mayoritas universitas peringkat teratas di dunia dan perusahaan industri terkemuka. Sebagai organisasi nirlaba global, QuBisa mengubah pendidikan tradisional, menghilangkan hambatan biaya, lokasi, dan akses.</p>
+				</div>
+				<div class="col-12 our-community">
+					<p>Komunitas Belajar Global Kami</p>
+					<p class="desc">Siswa kami berasal dari setiap negara di dunia! Apakah Anda tertarik pada ilmu komputer, bahasa, teknik, psikologi, penulisan, elektronik, biologi, atau pemasaran, kami meliliki kursus untuk Anda! Daftarkan diri Anda hari ini dan pelajari sesuatu yang baru.</p>
+				</div>
+				<div class="col-12 our-difference">
+					<p>Our Difference</p>
+					<p class="desc">Kami didirikan oleh dan terus diperintah oleh perguruan tinggi dan universitas. Kami adalah satu-satunya penyedia MOOC terkemuka yang bersifat nirlaba dan open source.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="key-people" class="my-5">
+		<div class="container">
+			<h6 class="pb-2 mb-0 title">Key People</h6>
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="item-people">
+						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
+						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+							<p>Mark S</p>
+							<p class="desciption">Founder Commissioner</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="item-people">
+						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-2.png') ?>" alt="">
+						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+							<p>Aida Aisha</p>
+							<p class="desciption">Co Founder CEO</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="item-people">
+						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-3.png') ?>" alt="">
+						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+							<p>Steve</p>
+							<p class="desciption">Director</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="item-people">
+						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-4.png') ?>" alt="">
+						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+							<p>Bram</p>
+							<p class="desciption">Vice President</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="our-partner" class="my-5">
+		<div class="container">
+			<h6 class="pb-2 mb-0 title">Mitra Kami</h6>
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="top-category">
+						<a href="#!">
+							<div>
+								<img src="<?php echo base_url('assets/img/aboutus/psi.png') ?>" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="top-category">
+						<a href="#!">
+							<div>
+								<img src="<?php echo base_url('assets/img/aboutus/rbl.png') ?>" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="top-category">
+						<a href="#!">
+							<div>
+								<img src="<?php echo base_url('assets/img/aboutus/qpr.png') ?>" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="top-category">
+						<a href="#!">
+							<div>
+								<img src="<?php echo base_url('assets/img/aboutus/axzo.png') ?>" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="top-category">
+						<a href="#!">
+							<div>
+								<img src="<?php echo base_url('assets/img/aboutus/tmbc.png') ?>" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<div class="text-center">	
+					<p>Ingin mengetahui lebih lanjut?</p>
+					<a href="#!"><div class="btn btn-primary">Hubungi Kami</div></a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="modal fade" id="peopleModalCenter" tabindex="-1" role="dialog" aria-labelledby="peopleModalCenterTitle" aria-hidden="true">
+  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span class="ti-close" aria-hidden="true"></span>
+							</button>
+							<div class="col-12" data-toggle="modal" data-target="#peopleModalCenter">
+								<div class="item-people">
+									<img class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
+									<div class="py-3">
+										<p>Mark S</p>
+										<p class="desciption">Founder Commissioner</p>
+										<p>2013-2017</p>
+										<p>CEO PT Digital Artha Media, sebuah perusahaan startup yang mengembangkan Mandiri e-cash, e-Money berbasis digital yang saat ini memimpin pasar di bidangnya dengan enam juta pengguna sebelum ia meninggalkan perusahaan.</p>
+										<p>2010-2012</p>
+										<p>Direktur PT Buana Central Swakarsa, sebuah grup perusahaan logistik.</p>
+										<p>2001-2010</p>
+										<p>Dengan jabatan terakhir sebagai Deputy CEO Jatis Group, perusahaan IT terkemuka yang berbasis di Indonesia dengan keahlian dalam pengembangan industri reksa dana di Indonesia. Sebelumnya juga sempat menjabat sebagai Vice President Financial Service Industry and Head of Wealth Management System.</p>
+										<p>1997-2001</p>
+										<p>Penggagas pemasaran reksa dana di Bank Bali (sekarang Permata Bank).	</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<?php $this->load->view("include/footer.php") ?>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/aboutus.js') ?>"></script>

@@ -48,7 +48,7 @@
 				<div class="w-100">
 					<div class="row">
 						<div class="btn-login w-100">
-							<a href="<?php echo gDomainName."/signin"?>"><button>Sign in</button></a>
+							<a href="<?php echo base_url('signin')?>"><button>Sign in</button></a>
 							<div>
 								<div class="text-center">Already have account</div>
 								<div class="text-center">Please sign in</div>

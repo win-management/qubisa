@@ -1,0 +1,115 @@
+#main-slide {
+  margin-top: 82px;
+}
+@media (max-width: 767px) {
+  #main-slide {
+    margin-top: 66px;
+  }
+}
+#main-slide img {
+  width: 100%;
+}
+#main-slide > div {
+  position: relative;
+}
+#main-slide div.title {
+  width: 100%;
+  background-color: #aa222f;
+  opacity: 0.84;
+  border: solid 0.5px #707070;
+  position: absolute;
+  bottom: 0px;
+}
+#main-slide div.title p {
+  margin-bottom: 0px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#about-us, #contact-us {
+  background-color: #f1f2f2;
+  font-weight: 600;
+}
+
+#key-people, #our-partner {
+  margin-bottom: 5rem !important;
+}
+#key-people h6, #our-partner h6 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#about-us .row > div {
+  margin-bottom: 12px;
+}
+#about-us .row > div:last-child {
+  margin-bottom: 0px;
+}
+#about-us .row > div p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#key-people .item-people img, #peopleModalCenter .item-people img {
+  display: block;
+  width: 130px !important;
+  margin: 30px 0px 10px 0px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  #key-people .item-people img, #peopleModalCenter .item-people img {
+    width: 110px !important;
+  }
+}
+#key-people .item-people div p, #peopleModalCenter .item-people div p {
+  cursor: pointer;
+}
+#key-people .item-people div p:first-child, #peopleModalCenter .item-people div p:first-child {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+#key-people .item-people div p.desciption, #peopleModalCenter .item-people div p.desciption {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#our-partner {
+  margin-bottom: 100px !important;
+}
+#our-partner .row > div img {
+  display: block;
+  width: 150px;
+  margin: 20px 0px;
+}
+#our-partner .row > div:last-child img {
+  width: 100px;
+}
+
+#contact-us {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#contact-us div p {
+  font-size: 18px;
+  font-weight: 600;
+}
+#contact-us div .btn-primary {
+  margin: 0 auto;
+  background-color: #aa222f;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: #aa222f;
+  border-radius: 16px;
+  padding: 14px 4rem;
+  font-weight: 600;
+}
+
+#peopleModalCenter .close {
+  position: absolute;
+  right: 20px;
+}
+
+/*# sourceMappingURL=aboutus.css.map */
