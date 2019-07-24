@@ -187,12 +187,15 @@ footer{
 			&:not(.dropdown-menu){
 				li{
 					padding-right: 10px;
-					&:first-child{
+					@media (min-width: 767px) { 
+						border-right: 2.5px solid #ffffff;		
+					}
+					&:last-child{
 						@media (min-width: 767px) { 
-							border-right: 2.5px solid #ffffff;
+							border:none;
 						}
 					}
-					&:nth-child(2){
+					&:not(:first-child){
 						padding-left: 10px;
 					}
 				}

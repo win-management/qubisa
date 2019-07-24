@@ -8,11 +8,12 @@
 			<option>English</option>
 		</select>
 		<ul class="list-unstyled">
-			<li><a href="#!">Information about this website</a></li>
-			<li><a href="#!">What you can get</a></li>
+			<li><a href="<?php echo gDomainName."/aboutus"?>">Tentang kami</a></li>
+			<li><a href="#!">Apa yang Anda dapat</a></li>
 		</ul>
 		<ul class="list-unstyled">
-			<li><a href="#!">About us</a></li>
+			<li><a href="#!">Karir</a></li>
+			<li><a href="#!">Kontak kami</a></li>
 			<li><a href="#!">Tutorial</a></li>
 		</ul>
       </div>
