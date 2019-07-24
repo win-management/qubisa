@@ -1,21 +1,19 @@
-@import "../fonts/fontawesome/css/fontawesome.min.css";
-@import "../fonts/fontawesome/css/brands.min.css";
-@import "../fonts/fontawesome/css/solid.min.css";
+@import "../fonts/fontawesome/fontawesome.min.css";
 @import "../fonts/themify/themify-icons.css";
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
 body{
 	color:#222;
+	font-size:15px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 nav{
-	background: #981023; /* Old browsers */
-	background: -moz-linear-gradient(left, #981023 0%, #d62432 50%, #e82a36 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #981023 0%,#d62432 50%,#e82a36 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #981023 0%,#d62432 50%,#e82a36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#981023', endColorstr='#e82a36',GradientType=1 ); /* IE6-9 */
-
+	background: #ffffff;
+	border-bottom: 1px solid #f2f2f2;
+	font-size: 16px;
+	font-weight: 600;
 	.navbar-brand, .navbar-text{
 		color: rgba(255,255,255,.8) !important;
 		img{
@@ -27,12 +25,12 @@ nav{
 	}
 	.navbar-nav{
 		.nav-link{
-			color: #ffffff !important;
+			color: #aa222f !important;
 		}
 	} 
 
 	.ul-search{
-		@media (max-width: 767px) { 
+		@media (max-width: 768px) { 
 			display:none;
 		}
 	}
@@ -40,14 +38,14 @@ nav{
 	.nav-item{
 		&.active,&:focus,&:hover{
 			.nav-link{
-				color: #ffffff !important;
+				color: #aa222f !important;
 			}
 		}
 
 		p{
-			color: #ffffff !important;
+			color: #aa222f !important;
 			position: relative;
-    		top: 7px;
+    		top: 10px;
 		}
 
 		.form-search{
@@ -59,15 +57,14 @@ nav{
 				border-radius:20px;
 				padding: .5rem 1rem;
 				background-color:#fff;
-				/*color:#981023;*/
-				color: #222222;
+				color: #0a0a0a;
 				font-weight: 600;
-				font-size:1.125rem;
-				border: none;
+				font-size:1rem;
+				border: 0.5px solid #707070;
 				i{
-					color:#981023;
+					color:#0a0a0a;
 					font-weight: bold;
-					margin-right: 5px;
+					margin-left: 10px;
 					position: relative;
 					top: 2px;
 				}
@@ -77,18 +74,18 @@ nav{
 					outline: none;
 					font-weight: 600;
 					&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-						color: #981023;
+						color: #0a0a0a;
 						font-weight: 600;
 						opacity: 1; /* Firefox */
 					}
 					
 					&:-ms-input-placeholder { /* Internet Explorer 10-11 */
-						color: #981023;
+						color: #0a0a0a;
 						font-weight: 600;
 					}
 					
 					&::-ms-input-placeholder { /* Microsoft Edge */
-						color: #981023;
+						color: #0a0a0a;
 						font-weight: 600;
 					}
 				}
@@ -104,34 +101,100 @@ nav{
 	}
 }
 
+section{
+	&#content{
+		margin-top: 82px;
+		@media (max-width: 767px) { 
+			margin-top: 40px;
+		}
+	}
+
+	.title{
+		font-weight: 600;
+	}
+
+	hr{
+		&.divider{
+			border-top: 10px solid #aa222f;
+		}
+	}
+}
+
 footer{
+	background: #981023; /* Old browsers */
+	background: -moz-linear-gradient(left, #981023 0%, #d62432 50%, #e82a36 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #981023 0%,#d62432 50%,#e82a36 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #981023 0%,#d62432 50%,#e82a36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#981023', endColorstr='#e82a36',GradientType=1 ); /* IE6-9 */
+	color:#ffffff;
 	ul{
-		li{
-			display: inline-block;
-			a{
-				margin-bottom: .5rem;
-				font-family: inherit;
-				font-weight: 500;
-				line-height: 1.2;
-				color:#222222;
-				font-size: 1.1rem;
-				@media (width: 768px) {
-					font-size: 1rem;
+		&:not(.dropdown-menu){
+			li{
+				display: inline-block;
+				a{
+					margin-bottom: .5rem;
+					font-family: inherit;
+					font-weight: 500;
+					line-height: 1.2;
+					color:#ffffff;
+					font-size: 1.1rem;
+					@media (width: 768px) {
+						font-size: 1rem;
+					}
+					&:active,&:focus,&:hover{
+						color:#ffffff;
+					}
 				}
 			}
 		}
 	}
 	.col-md-8{
-		ul{
-			li{
-				padding-right: 10px;
-				&:first-child{
-					@media (min-width: 767px) { 
-						border-right: 2.5px solid #222;
+		div{
+			&.dropup{
+				select{
+					&.dropup{
+						outline: none;
 					}
 				}
-				&:nth-child(2){
-					padding-left: 10px;
+				button{
+					border: 1px solid #ffffff;
+					border-radius: 0px;
+					background-color: transparent;
+					color: #ffffff;
+					&:active,&:focus,&:link,&:visited,&:hover{
+						background-color: transparent;
+						color: #ffffff;
+						border-color: #ffffff;
+						box-shadow: none;
+						outline: none;
+					}
+				}
+			}
+			&.show{
+				&>.btn-light{
+					&.dropdown-toggle{
+						background-color: transparent;
+						color: #ffffff;
+						border-color: #ffffff;
+						&:after{
+							color:#ffffff;
+						}
+					}
+				}
+			}
+		}
+		ul{
+			&:not(.dropdown-menu){
+				li{
+					padding-right: 10px;
+					&:first-child{
+						@media (min-width: 767px) { 
+							border-right: 2.5px solid #ffffff;
+						}
+					}
+					&:nth-child(2){
+						padding-left: 10px;
+					}
 				}
 			}
 		}
@@ -164,6 +227,7 @@ footer{
 				}
 			}
 			&.social-media{
+				margin-bottom: 0.625rem;
 				li{
 					margin-right:5px;
 					img{
@@ -172,6 +236,13 @@ footer{
 				}
 			}
 		}
+		.footer-copyright{
+			font-size: 0.875rem;
+		}
+	}
+
+	hr{
+		border-color: #fff;
 	}
 }
 

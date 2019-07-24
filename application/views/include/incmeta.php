@@ -16,5 +16,6 @@
 <link rel="shortcut icon" href="<?php echo base_url('assets/img/favicon.ico') ?>" type="image/x-icon">
 <link rel="apple-touch-icon" href="<?php echo base_url('assets/img/apple-touch-icon.png') ?>" type="image/x-icon" >
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/bootstrap/css/bootstrap.min.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/bootstrap-select/css/bootstrap-select.min.css') ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/jquery-ui/css/jquery-ui.min.css') ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css') ?>">

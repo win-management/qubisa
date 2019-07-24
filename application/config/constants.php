@@ -90,3 +90,5 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 |
 */
 define('SITE_NAME', 'QuBisa');
+
+define('gDomainName', 'http://localhost/qubisa');

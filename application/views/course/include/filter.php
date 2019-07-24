@@ -6,7 +6,7 @@
 				<li>Availability</li>
 				<li><p class="col-md-9 col-lg-10 float-left">Current</p><p class="col-md-3 col-lg-2 float-right">1168</p></li>
 				<li><p class="col-md-9 col-lg-10 float-left">Starting Soon</p><p class="col-md-3 col-lg-2 float-right">288</p></li>
-				<li><p class="col-md-9 col-lg-10 float-left">Upcoming</p><p class="col-md-3 col-lg-2 float-right">224</p></li>
+				<li><p class="col-md-9 col-lg-10 float-left">Upcoming</p><p class="col-md-3 col-lg-2 float-right">224</p><div class="clearfix"></div></li>
 				<li>Self-Paced</li>
 				<li>Archived</li>
 			</ul>
@@ -42,7 +42,7 @@
 		<li>
 			<ul class="list-unstyled">
 				<li>Courses & Programs</li>
-				<li><p class="col-md-9 col-lg-10 float-left">All Courses</p><p class="col-md-3 col-lg-2 float-right">2440</p></li>
+				<li><p class="col-md-9 col-lg-10 float-left">All Courses</p><p class="col-md-3 col-lg-2 float-right">2440</p><div class="clearfix"></div></li>
 				<li>All Programs</li>
 				<li>Credit-Eligible</li>
 				<li>Master's Degrees</li>

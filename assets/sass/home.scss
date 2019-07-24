@@ -34,6 +34,7 @@
 			bottom: 10px;
 			width: 100%;
 			.owl-dot{
+				outline: none;
 				span{
 					border: 1px solid #555555;
 					width: 12px;
@@ -76,81 +77,171 @@
 	}
 }
 
-#filter{
-	>ul{
-		border: 0.5px solid #ddd;
-		-webkit-box-shadow: 1px 1px 2px 0px rgba(112,112,112,0.2);
-		-moz-box-shadow: 1px 1px 2px 0px rgba(112,112,112,0.2);
-		box-shadow: 1px 1px 2px 0px rgba(112,112,112,0.2);
-		@media (max-width: 767px) { 
-			display:none;
+section{
+	.container{
+		.row{
+			>div{
+				margin: 10px 0;
+			}
 		}
-		>li{
-			&:first-child{
-				padding: 15px;
-				background-color: #F11515;
-				color: #ffffff;
-				font-size: 1.25rem;
-				border-bottom: 1px solid #ddd;
-			}
-			&:last-child{
-				margin-bottom: 50px;
-			}
-			>ul{
-				padding: 15px 0px;
-				color:#0a0a0a;
-				>li{
-					padding: 0px 15px;
-					&:first-child{
-						font-weight: 600;
+	}
+}
+
+#popular-categories{
+	.container{
+		.row{
+			.top-category{
+				box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+				opacity: 1;
+				overflow: hidden;
+				padding: 10px 15px;
+				a{
+					color: #981023;
+					display: inline-block;
+    				width: 100%;
+					&:active,&:focus,&:hover{
+						color: #981023;
 					}
-					p{
-						margin-bottom: 0px;
-						padding: 0px;
-						&:first-child{
-							text-overflow: ellipsis;
-							display: -webkit-box;
-							-webkit-line-clamp: 1;
-							-webkit-box-orient: vertical;
-							overflow: hidden;
-							height: 24px;
+					img{
+						width: 35px;
+					}
+					div{
+						height: 50px;
+						line-height: 50px;
+						display: inline-block;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						flex: 1;
+						min-width: 1px;
+						margin-left: 8px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+}
+
+#viewed-course, #participant-course{
+	.container{
+		.owl-carousel{
+			margin: auto -5px;
+			.owl-stage{
+				margin: 5px auto;
+			}
+			.card-item{
+				box-shadow: 0 1px 3px 0 rgba(20,23,28,.15);
+				margin: auto 5px;
+				a{
+					color: #0a0a0a;
+					display: inline-block;
+    				width: 100%;
+					&:active,&:focus,&:hover{
+						color: #0a0a0a;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.owl-nav {
+			margin: 0 auto;
+			position: absolute;
+			z-index: 3;
+			top: 40%;
+			width: 100%;
+			button{
+				position: absolute;
+				outline: none;
+				&.owl-next{
+					right: -20px;
+				}
+				&.owl-prev{
+					left: -20px;
+				}
+				&:hover{
+					background: none;
+				}
+				&.disabled{
+					display:none;
+				}
+
+				i{
+					padding: 12px;
+					background: #fff;
+					border-radius: 50%;
+					color:#707070;
+					box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+					&:active,&:focus,&:hover{
+						color:#707070;
+					}
+				}
+			}
+		}
+	}
+}
+
+#viewed-course{
+	.owl-carousel{
+		.card-item{
+			img{
+				width:100%;
+			}
+			div{
+				p{
+					&:first-child{
+						font-weight: 800;
+						font-size: 18px;
+						span{
+							font-weight: 600;
+							font-size: 16px;
 						}
 					}
-
-					&.sub-filter{
-						display:none;
+					&.info-status{
+						text-transform: uppercase;
+						font-weight: 600;
+						font-size: 12px;
 					}
+				}
 
-					&.toggle{
-						a{
-							font-weight: 600;
-							color: inherit;
+				.rating {
+					>i{
+						&.checked {
+							color: orange;
+						}
+					}
+					>span{
+						&.rating-text{
+							font-weight: 500;
+							margin-left: 5px;
+							font-size: 14px;
 						}
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 
-.card-view{
-	>p{
-		font-size: 1.125rem;
-		font-weight: 600;
-		color: #f11515;
-		margin-bottom: 0px;
-	}
-	.card-item{
-		div{
-			border: 0.5px solid #ddd;
-			-webkit-box-shadow: 0px 1px 2px 0.5px rgba(112,112,112,0.2);
-			-moz-box-shadow: 0px 1px 2px 0.5px rgba(112,112,112,0.2);
-			box-shadow: 0px 1px 2px 0.5px rgba(112,112,112,0.2);
-			p{
-				font-size:0.875rem;
-				color:#070001;
-				&:first-child{
-					margin-bottom: 0px;
+#participant-course{
+	.owl-carousel{
+		.card-item{
+			padding-left: 10px;
+			padding-right: 10px;
+			img{
+				width: 50% !important;
+				margin: 30px auto;
+				border: 1px solid #ddd;
+			}
+			div{
+				p{
+					&:first-child{
+						font-weight: 600;
+					}
+					&.desciption{
+						font-size: 12px;
+						font-weight: 500;
+    					line-height: 24px;
+					}
 				}
 			}
 		}

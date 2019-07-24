@@ -21,4 +21,11 @@ $(document).ready(function() {
 			return false;
 		}
 	});
+
+	$(".form-search").submit(function(e){
+		e.preventDefault();
+		if($("#autocomplete_search").val().length > 3){
+			window.location.href = g_DomainCourse;
+		}
+	});
 })

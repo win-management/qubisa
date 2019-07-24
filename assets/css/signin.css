@@ -1,0 +1,107 @@
+#signin {
+  width: 470px;
+  margin: 100px auto !important;
+}
+@media (max-width: 767px) {
+  #signin {
+    width: 80%;
+  }
+}
+#signin .row input {
+  border-radius: 16px;
+  padding: 14px 20px;
+  background-color: #fff;
+  color: #0a0a0a;
+  font-weight: 600;
+  font-size: 18px;
+  border: 0.5px solid #707070;
+  margin-bottom: 1.5rem;
+  outline: none;
+}
+#signin .row input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0a0a0a;
+  font-weight: 600;
+  opacity: 1;
+  /* Firefox */
+}
+#signin .row input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #0a0a0a;
+  font-weight: 600;
+}
+#signin .row input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #0a0a0a;
+  font-weight: 600;
+}
+#signin .row input#login {
+  background-color: #f11515;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: #f11515;
+}
+#signin .row .form-footer {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+#signin .row .form-footer a {
+  color: #0a0a0a;
+  font-weight: 600;
+  font-size: 20px;
+}
+#signin .row .form-footer a:active, #signin .row .form-footer a:focus, #signin .row .form-footer a:hover {
+  color: #0a0a0a;
+}
+#signin .row > p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+#signin .row .btn-socmed {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#signin .row .btn-socmed button {
+  width: calc(50% - 10px);
+  float: left;
+  background-repeat: no-repeat;
+  height: 55px;
+  border: solid 0.5px #707070;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  color: #095588;
+  border-radius: 16px;
+  padding-left: 35px;
+  background-color: #fff;
+  background-size: 60px;
+  background-position: left center;
+}
+@media (max-width: 767px) {
+  #signin .row .btn-socmed button {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100%;
+  }
+}
+#signin .row .btn-socmed button#fb-login {
+  margin-right: 10px;
+  background-image: url(../img/ic-fb.png);
+  background-color: #0e73ba;
+  color: #ffffff;
+  background-size: 55px;
+}
+@media (max-width: 767px) {
+  #signin .row .btn-socmed button#fb-login {
+    margin-bottom: 20px;
+  }
+}
+#signin .row .btn-socmed button#google-login {
+  margin-left: 10px;
+  background-image: url(../img/ic-google.png);
+}
+
+/*# sourceMappingURL=signin.css.map */

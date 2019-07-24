@@ -1,5 +1,5 @@
 <section id="main-slide">
-	<div class="owl-carousel owl-theme">
+	<div class="owl-carousel owl-main-slide owl-theme">
 		<div class="item">
 			<picture>
 				<source media="(max-width: 767px)" srcset="<?php echo base_url('assets/img/main-slide-m1.jpg') ?>">

@@ -1,0 +1,65 @@
+#filter > ul {
+  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+}
+@media (max-width: 767px) {
+  #filter > ul {
+    display: none;
+  }
+}
+#filter > ul > li:first-child {
+  padding: 15px;
+  background-color: #F11515;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+#filter > ul > li:last-child {
+  margin-bottom: 50px;
+}
+#filter > ul > li > ul {
+  padding: 15px 0px;
+  color: #0a0a0a;
+}
+#filter > ul > li > ul > li {
+  padding: 0px 15px;
+}
+#filter > ul > li > ul > li:first-child {
+  font-weight: 600;
+}
+#filter > ul > li > ul > li p {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#filter > ul > li > ul > li p:first-child {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 24px;
+}
+#filter > ul > li > ul > li.sub-filter {
+  display: none;
+}
+#filter > ul > li > ul > li.toggle a {
+  font-weight: 600;
+  color: inherit;
+}
+
+.card-view > p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f11515;
+  margin-bottom: 0px;
+}
+.card-view .card-item {
+  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+}
+.card-view .card-item div p {
+  font-size: 0.875rem;
+  color: #070001;
+}
+.card-view .card-item div p:first-child {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=course.css.map */

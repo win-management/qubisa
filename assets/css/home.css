@@ -36,6 +36,9 @@
   bottom: 10px;
   width: 100%;
 }
+#main-slide .owl-carousel .owl-dots .owl-dot {
+  outline: none;
+}
 #main-slide .owl-carousel .owl-dots .owl-dot span {
   border: 1px solid #555555;
   width: 12px;
@@ -73,75 +76,133 @@
   }
 }
 
-#filter > ul {
-  border: 0.5px solid #ddd;
-  -webkit-box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
-  -moz-box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
-  box-shadow: 1px 1px 2px 0px rgba(112, 112, 112, 0.2);
-}
-@media (max-width: 767px) {
-  #filter > ul {
-    display: none;
-  }
-}
-#filter > ul > li:first-child {
-  padding: 15px;
-  background-color: #F11515;
-  color: #ffffff;
-  font-size: 1.25rem;
-  border-bottom: 1px solid #ddd;
-}
-#filter > ul > li:last-child {
-  margin-bottom: 50px;
-}
-#filter > ul > li > ul {
-  padding: 15px 0px;
-  color: #0a0a0a;
-}
-#filter > ul > li > ul > li {
-  padding: 0px 15px;
-}
-#filter > ul > li > ul > li:first-child {
-  font-weight: 600;
-}
-#filter > ul > li > ul > li p {
-  margin-bottom: 0px;
-  padding: 0px;
-}
-#filter > ul > li > ul > li p:first-child {
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  height: 24px;
-}
-#filter > ul > li > ul > li.sub-filter {
-  display: none;
-}
-#filter > ul > li > ul > li.toggle a {
-  font-weight: 600;
-  color: inherit;
+section .container .row > div {
+  margin: 10px 0;
 }
 
-.card-view > p {
-  font-size: 1.125rem;
+#popular-categories .container .row .top-category {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  opacity: 1;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+#popular-categories .container .row .top-category a {
+  color: #981023;
+  display: inline-block;
+  width: 100%;
+}
+#popular-categories .container .row .top-category a:active, #popular-categories .container .row .top-category a:focus, #popular-categories .container .row .top-category a:hover {
+  color: #981023;
+}
+#popular-categories .container .row .top-category a img {
+  width: 35px;
+}
+#popular-categories .container .row .top-category a div {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 1px;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+#viewed-course .container .owl-carousel, #participant-course .container .owl-carousel {
+  margin: auto -5px;
+}
+#viewed-course .container .owl-carousel .owl-stage, #participant-course .container .owl-carousel .owl-stage {
+  margin: 5px auto;
+}
+#viewed-course .container .owl-carousel .card-item, #participant-course .container .owl-carousel .card-item {
+  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+  margin: auto 5px;
+}
+#viewed-course .container .owl-carousel .card-item a, #participant-course .container .owl-carousel .card-item a {
+  color: #0a0a0a;
+  display: inline-block;
+  width: 100%;
+}
+#viewed-course .container .owl-carousel .card-item a:active, #viewed-course .container .owl-carousel .card-item a:focus, #viewed-course .container .owl-carousel .card-item a:hover, #participant-course .container .owl-carousel .card-item a:active, #participant-course .container .owl-carousel .card-item a:focus, #participant-course .container .owl-carousel .card-item a:hover {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+#viewed-course .container .owl-nav, #participant-course .container .owl-nav {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  width: 100%;
+}
+#viewed-course .container .owl-nav button, #participant-course .container .owl-nav button {
+  position: absolute;
+  outline: none;
+}
+#viewed-course .container .owl-nav button.owl-next, #participant-course .container .owl-nav button.owl-next {
+  right: -20px;
+}
+#viewed-course .container .owl-nav button.owl-prev, #participant-course .container .owl-nav button.owl-prev {
+  left: -20px;
+}
+#viewed-course .container .owl-nav button:hover, #participant-course .container .owl-nav button:hover {
+  background: none;
+}
+#viewed-course .container .owl-nav button.disabled, #participant-course .container .owl-nav button.disabled {
+  display: none;
+}
+#viewed-course .container .owl-nav button i, #participant-course .container .owl-nav button i {
+  padding: 12px;
+  background: #fff;
+  border-radius: 50%;
+  color: #707070;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+#viewed-course .container .owl-nav button i:active, #viewed-course .container .owl-nav button i:focus, #viewed-course .container .owl-nav button i:hover, #participant-course .container .owl-nav button i:active, #participant-course .container .owl-nav button i:focus, #participant-course .container .owl-nav button i:hover {
+  color: #707070;
+}
+
+#viewed-course .owl-carousel .card-item img {
+  width: 100%;
+}
+#viewed-course .owl-carousel .card-item div p:first-child {
+  font-weight: 800;
+  font-size: 18px;
+}
+#viewed-course .owl-carousel .card-item div p:first-child span {
   font-weight: 600;
-  color: #f11515;
-  margin-bottom: 0px;
+  font-size: 16px;
 }
-.card-view .card-item div {
-  border: 0.5px solid #ddd;
-  -webkit-box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
-  -moz-box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
-  box-shadow: 0px 1px 2px 0.5px rgba(112, 112, 112, 0.2);
+#viewed-course .owl-carousel .card-item div p.info-status {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
 }
-.card-view .card-item div p {
-  font-size: 0.875rem;
-  color: #070001;
+#viewed-course .owl-carousel .card-item div .rating > i.checked {
+  color: orange;
 }
-.card-view .card-item div p:first-child {
-  margin-bottom: 0px;
+#viewed-course .owl-carousel .card-item div .rating > span.rating-text {
+  font-weight: 500;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+#participant-course .owl-carousel .card-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#participant-course .owl-carousel .card-item img {
+  width: 50% !important;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+}
+#participant-course .owl-carousel .card-item div p:first-child {
+  font-weight: 600;
+}
+#participant-course .owl-carousel .card-item div p.desciption {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=home.css.map */

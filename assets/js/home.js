@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	var owl = $('.owl-carousel');
-	owl.owlCarousel({
+	var owl_mainslide = $('.owl-main-slide');
+	owl_mainslide.owlCarousel({
 		margin: 0,
 		loop: true,
 		items: 1,
@@ -11,17 +11,47 @@ $(document).ready(function() {
   		navText: ["<img src='assets/img/arrow-l.png'>","<img src='assets/img/arrow-r.png'>"]
 	});
 
-	$('#filter li.toggle .show-more').click(function(e) {
-		e.preventDefault();
-		$("#filter").find(".sub-filter").slideToggle();
-		$('#filter li.toggle .show-more').addClass("d-none");
-		$('#filter li.toggle .show-less').removeClass("d-none");
+	var owl_course = $('.owl-viewed-course');
+	owl_course.owlCarousel({
+		margin: 15,
+		loop: false,
+		dots: false,
+		autoplay:false,
+		navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
+		nav:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:4
+			}
+		}
 	});
 
-	$('#filter li.toggle .show-less').click(function(e) {
-		e.preventDefault();
-		$("#filter").find(".sub-filter").slideToggle();
-		$('#filter li.toggle .show-less').addClass("d-none");
-		$('#filter li.toggle .show-more').removeClass("d-none");
+	var owl_participant_course = $('.owl-participant-course');
+	owl_participant_course.owlCarousel({
+		margin: 15,
+		loop: false,
+		dots: false,
+		autoplay:false,
+		navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
+		nav:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:4
+			}
+		}
 	});
 })
