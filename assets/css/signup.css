@@ -67,10 +67,12 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-#signup .row .btn-socmed button, #signup .row .btn-login button {
+#signup .row .btn-socmed button, #signup .row .btn-socmed .btn-default, #signup .row .btn-login button, #signup .row .btn-login .btn-default {
   width: calc(50% - 10px);
   float: left;
   background-repeat: no-repeat;
+}
+#signup .row .btn-socmed button, #signup .row .btn-login button {
   height: 55px;
   border: solid 0.5px #707070;
   font-size: 18px;
@@ -79,6 +81,9 @@
   outline: none;
   background-color: #fff;
   border-radius: 16px;
+}
+#signup .row .btn-socmed .btn-default, #signup .row .btn-login .btn-default {
+  padding: 15px;
 }
 #signup .row .btn-socmed button {
   color: #095588;

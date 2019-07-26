@@ -35,8 +35,7 @@
 #key-people, #our-partner{
 	margin-bottom: 5rem !important;
 	h6{
-		font-weight: 700;
-		font-size: 18px;
+		font-weight: 600;
 	}
 }
 
@@ -48,11 +47,15 @@
 				margin-bottom: 0px;
 			}
 			p{
+				font-weight: 500;
 				&:first-child{
-					font-weight: 700;
-					font-size: 18px;
+					font-weight: 600;
+					font-size: 1rem;
 					margin-bottom: 5px;
 				}
+			}
+			ul{
+				font-weight: 500;
 			}
 		}
 	}
@@ -114,13 +117,8 @@
 		}
 		.btn-primary{
 			margin: 0 auto;
-			background-color: #aa222f;
-			color: #ffffff;
-			cursor: pointer;
-			border-color: #aa222f;
-			border-radius: 16px;
-    		padding: 14px 4rem;
-			font-weight: 600;
+			padding: 14px 4rem;
+			font-size: 16px;
 		}
 	}
 }

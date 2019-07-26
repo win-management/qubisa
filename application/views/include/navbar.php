@@ -14,6 +14,7 @@
 					<form class="form-search my-2 my-lg-0 mx-auto align-middle">
 						<div><input type="text" id="autocomplete_search" placeholder="Search"><i class="ti-search"></i></div>
 					</form>
+					<div id="search-container"></div>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">

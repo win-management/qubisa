@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-coaching.png') ?>" alt="">
 								<div>Coaching</div>
@@ -27,7 +27,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-communication.png') ?>" alt="">
 								<div>Communications</div>
@@ -37,7 +37,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-cs.png') ?>" alt="">
 								<div>Customer Service</div>
@@ -47,7 +47,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-sales-marketing.png') ?>" alt="">
 								<div>Sales & Marketing</div>
@@ -57,7 +57,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-electronic.png') ?>" alt="">
 								<div>Electronic</div>
@@ -67,7 +67,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
-						<a href="<?php echo base_url('course')?>">
+						<a href="<?php echo gDomainCourseSubject ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/ic-english.png') ?>" alt="">
 								<div>English</div>

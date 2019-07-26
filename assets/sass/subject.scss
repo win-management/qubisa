@@ -1,0 +1,228 @@
+#main-slide{
+	margin-top: 82px;
+	@media (max-width: 767px) { 
+		margin-top: 66px;
+	}
+	img{
+		width: 100%;
+	}
+	>div{
+		position: relative;
+	}
+	div{
+		&.overlay{
+			position: absolute;
+			background-color: #aa222f;
+			opacity: 0.44;
+			height:100%;
+			width: 100%;
+			bottom: 0px;	
+		}
+		&.title{
+			width: 100%;
+			position: absolute;
+			bottom: 0px;
+			opacity: 1;
+			p{
+				margin-bottom: 0px;
+				font-size: 14px;
+				font-weight: 600;
+				color: #ffffff;
+				&:first-child{
+					font-size: 28px;
+					margin-bottom: 16px;
+				}
+			}
+		}
+	}
+}
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 769px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+section{
+	&#content{
+		margin-top: 0px;
+		.subject-title{
+			p{
+				font-weight: 600;
+				font-size: 1rem;
+				&:first-child{
+					margin-bottom: 10px;
+				}
+			}
+			i{
+				font-weight: 600;
+				font-size: 1rem;
+				position: relative;
+				top: 2px;
+			}
+			.btn{
+				@media (max-width: 767px) { 
+					float:none !important;
+				}
+			}
+		}
+		.subject-title{
+			.btn{
+				&:active,&:focus,&:hover{
+					background-color: #f11515;
+					color: #ffffff;
+					border-color: #f11515;
+				}
+			}
+		}
+		.card-view{
+			margin-left:0px;
+			margin-right:0px;
+			>p{
+				font-size: 1.125rem;
+				font-weight: 600;
+				color: #f11515;
+				margin-bottom: 0px;
+			}
+			.card-item{
+				box-shadow: 0 1px 3px 0 rgba(20,23,28,.15);
+				div{
+					p{
+						font-size:0.875rem;
+						color:#070001;
+						&:first-child{
+							margin-bottom: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+	&#search-more{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		background-color: #f1f2f2;
+		font-weight: 600;
+		div{
+			p{
+				font-size: 16px;
+				font-weight: 600;
+				margin-bottom: 0px;
+    			margin-right: 15px;
+			}
+			.btn-primary{
+				margin: 0 auto;
+				padding: 14px 4rem;
+				font-size: 16px;
+			}
+			&.search-more-container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				@media (max-width: 767px) { 
+					display: block;
+					p{
+						margin-bottom: 10px;
+						margin-right: 0px;
+					}
+					.form-search{
+						width: 90%;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+
+		.form-search{
+			width:400px;
+			@media (max-width: 768px) { 
+				width:100%;
+			}
+			div{
+				border-radius:20px;
+				padding: .5rem 1rem;
+				background-color:#fff;
+				color: #0a0a0a;
+				font-weight: 600;
+				font-size:1rem;
+				border: 0.5px solid #707070;
+				i{
+					color:#0a0a0a;
+					font-weight: bold;
+					margin-left: 10px;
+					position: relative;
+					top: 2px;
+				}
+				input{
+					width: calc(100% - 2rem);
+					border: none;
+					outline: none;
+					font-weight: 600;
+					&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+						color: #0a0a0a;
+						font-weight: 600;
+						opacity: 1; /* Firefox */
+					}
+					
+					&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+						color: #0a0a0a;
+						font-weight: 600;
+					}
+					
+					&::-ms-input-placeholder { /* Microsoft Edge */
+						color: #0a0a0a;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+	&#load-more{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}

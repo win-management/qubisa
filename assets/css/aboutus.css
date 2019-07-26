@@ -36,8 +36,7 @@
   margin-bottom: 5rem !important;
 }
 #key-people h6, #our-partner h6 {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
 }
 
 #about-us .row > div {
@@ -46,10 +45,16 @@
 #about-us .row > div:last-child {
   margin-bottom: 0px;
 }
+#about-us .row > div p {
+  font-weight: 500;
+}
 #about-us .row > div p:first-child {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 1rem;
   margin-bottom: 5px;
+}
+#about-us .row > div ul {
+  font-weight: 500;
 }
 
 #key-people .item-people img, #peopleModalCenter .item-people img {
@@ -98,13 +103,8 @@
 }
 #contact-us div .btn-primary {
   margin: 0 auto;
-  background-color: #aa222f;
-  color: #ffffff;
-  cursor: pointer;
-  border-color: #aa222f;
-  border-radius: 16px;
   padding: 14px 4rem;
-  font-weight: 600;
+  font-size: 16px;
 }
 
 #peopleModalCenter .close {
