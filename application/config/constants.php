@@ -94,3 +94,4 @@ define('SITE_NAME', 'QuBisa');
 define('gDomainName', 'http://localhost/qubisa');
 define('gDomainCourse', gDomainName.'/courses');
 define('gDomainCourseSubject', gDomainCourse.'/subject');
+define('gDomainCourseDetail', gDomainCourse.'/detail');

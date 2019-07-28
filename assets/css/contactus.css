@@ -1,0 +1,19 @@
+section#main-slide-3 > div {
+  background-image: linear-gradient(to right, #981023, #e82a36);
+}
+section#main-slide-3 div.overlay {
+  opacity: 0;
+  height: 80px;
+}
+section#main-slide-3 div.title p:first-child {
+  font-size: 24px !important;
+  text-transform: uppercase;
+}
+section#content div#map {
+  height: 300px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+/*# sourceMappingURL=contactus.css.map */

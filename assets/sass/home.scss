@@ -1,8 +1,4 @@
 #main-slide{
-	margin-top: 82px;
-	@media (max-width: 767px) { 
-		margin-top: 66px;
-	}
 	.owl-carousel{
 		.item{
 			.download-app{
@@ -200,21 +196,6 @@ section{
 						text-transform: uppercase;
 						font-weight: 600;
 						font-size: 12px;
-					}
-				}
-
-				.rating {
-					>i{
-						&.checked {
-							color: orange;
-						}
-					}
-					>span{
-						&.rating-text{
-							font-weight: 500;
-							margin-left: 5px;
-							font-size: 14px;
-						}
 					}
 				}
 			}

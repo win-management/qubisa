@@ -1,0 +1,143 @@
+#main-slide-2 div.btn-play {
+  width: 100%;
+  position: absolute;
+  bottom: 55px;
+  color: #aa222f;
+}
+#main-slide-2 div.btn-play p {
+  background-color: #ffffff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-left: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#main-slide-2 div.btn-play p i {
+  background: #aa222f;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+#content > .container > .row > .col-12 > div {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #707070;
+}
+#content > .container > .row > .col-12 > div .nav-tabs {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#content > .container > .row > .col-12 > div .nav-tabs .nav-item {
+  width: 200px;
+}
+@media (max-width: 767px) {
+  #content > .container > .row > .col-12 > div .nav-tabs .nav-item {
+    width: 50%;
+  }
+}
+#content > .container > .row > .col-12 > div .nav-tabs .nav-item .nav-link {
+  display: inline-block;
+  color: #0a0a0a;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  font-weight: 600;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#content > .container > .row > .col-12 > div .nav-tabs .nav-item .nav-link.active {
+  color: #f11515;
+}
+#content > .container > .row > .col-12 > div #detail-tab {
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  border-bottom: solid 0.5px #707070;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .title, #content > .container > .row > .col-12 > div #detail-tab-content #div-content .row .title {
+  color: #f11515;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .form-enroll .btn, #content > .container > .row > .col-12 > div #detail-tab-content #div-content .row .form-enroll .btn {
+  padding: 10px 50px;
+  font-size: 18px;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview > ul {
+  padding: 20px 15px;
+  padding-bottom: 30px;
+  background-color: #f1f2f2;
+  font-weight: 600;
+  margin-left: 1px;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview > ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #707070;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview > ul li p {
+  margin-bottom: 0px;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row {
+  margin: 0px;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row p {
+  padding-left: 0px;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row p.author-title {
+  font-weight: 600;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row ul li:first-child {
+  font-weight: 600;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .item-people img {
+  width: 80px;
+  cursor: pointer;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .item-people p {
+  cursor: pointer;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-content ul#ul-course {
+  font-weight: 600;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-rating h4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-rating .row .progress {
+  height: 12px;
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  #content > .container > .row > .col-12 > div #detail-tab-content #div-rating .row .progress {
+    margin-bottom: 5px;
+  }
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-rating .row .progress .progress-bar {
+  background-color: #0e73ba;
+}
+@media (max-width: 767px) {
+  #content > .container > .row > .col-12 > div #detail-tab-content #div-rating .row .rating {
+    float: none !important;
+  }
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-review a {
+  color: #f11515;
+  font-weight: 600;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content .is-sticky #div-enroll, #content > .container > .row > .col-12 > div #detail-tab-content .is-sticky #div-enroll-2 {
+  background-color: #ffffff;
+}
+
+#peopleModalCenter button.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #fff;
+  opacity: 1;
+  color: #707070;
+}
+#peopleModalCenter img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=course-detail.css.map */

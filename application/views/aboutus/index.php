@@ -7,16 +7,17 @@
 <body>
 	<?php $this->load->view("include/header.php") ?>
 
-	<section id="main-slide">
+	<section id="main-slide-2">
 		<div>
 			<picture>
 				<source media="(max-width: 767px)" srcset="<?php echo base_url('assets/img/aboutus/main-image-m.jpg') ?>">
 				<img src="<?php echo base_url('assets/img/aboutus/main-image.jpg') ?>" alt="">
 			</picture>
+			<div class="overlay"></div>
 			<div class="title">
 				<div class="container">
 					<div class="row">
-						<p class="col-12 py-4">About QuBisa</p>
+						<p class="col-12 py-2">About QuBisa</p>
 					</div>
 				</div>
 			</div>
@@ -32,7 +33,6 @@
 						<li>Tingkatkan akses ke pendidikan berkualitas tinggi untuk semua orang, dimana saja.</li>
 						<li>Tingkatkan pengajaran dan pembelajaran di kampus dan online.</li>
 						<li>Memajukan pengajaran dan pembelajaran melalui penelitian.</li>
-						
 					</ul>
 				</div>
 				<div class="col-12 our-history">
@@ -51,103 +51,105 @@
 		</div>
 	</section>
 
-	<section id="key-people" class="my-5">
-		<div class="container">
-			<h6 class="pb-2 mb-0 title">Key People</h6>
-			<div class="row">
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="item-people">
-						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
-						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
-							<p>Mark S</p>
-							<p class="desciption">Founder Commissioner</p>
+	<div id="div-background">
+		<section id="key-people">
+			<div class="container">
+				<h6 class="pb-2 mb-0 title">Key People</h6>
+				<div class="row">
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="item-people">
+							<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
+							<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+								<p>Mark S</p>
+								<p class="desciption">Founder Commissioner</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="item-people">
-						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-2.png') ?>" alt="">
-						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
-							<p>Aida Aisha</p>
-							<p class="desciption">Co Founder CEO</p>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="item-people">
+							<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-2.png') ?>" alt="">
+							<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+								<p>Steve</p>
+								<p class="desciption">Co Founder CEO</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="item-people">
-						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-3.png') ?>" alt="">
-						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
-							<p>Steve</p>
-							<p class="desciption">Director</p>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="item-people">
+							<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-3.png') ?>" alt="">
+							<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+								<p>Aida Aisha</p>
+								<p class="desciption">Director</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="item-people">
-						<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-4.png') ?>" alt="">
-						<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
-							<p>Bram</p>
-							<p class="desciption">Vice President</p>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="item-people">
+							<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-4.png') ?>" alt="">
+							<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
+								<p>Bram</p>
+								<p class="desciption">Vice President</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section id="our-partner" class="my-5">
-		<div class="container">
-			<h6 class="pb-2 mb-0 title">Mitra Kami</h6>
-			<div class="row">
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="top-category">
-						<a href="#!">
-							<div>
-								<img src="<?php echo base_url('assets/img/aboutus/psi.png') ?>" alt="">
-							</div>
-						</a>
+		<section id="our-partner">
+			<div class="container">
+				<h6 class="pb-2 mb-0 title">Mitra Kami</h6>
+				<div class="row">
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="top-category">
+							<a href="#!">
+								<div>
+									<img src="<?php echo base_url('assets/img/aboutus/psi.png') ?>" alt="">
+								</div>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="top-category">
-						<a href="#!">
-							<div>
-								<img src="<?php echo base_url('assets/img/aboutus/rbl.png') ?>" alt="">
-							</div>
-						</a>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="top-category">
+							<a href="#!">
+								<div>
+									<img src="<?php echo base_url('assets/img/aboutus/rbl.png') ?>" alt="">
+								</div>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="top-category">
-						<a href="#!">
-							<div>
-								<img src="<?php echo base_url('assets/img/aboutus/qpr.png') ?>" alt="">
-							</div>
-						</a>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="top-category">
+							<a href="#!">
+								<div>
+									<img src="<?php echo base_url('assets/img/aboutus/qpr.png') ?>" alt="">
+								</div>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="top-category">
-						<a href="#!">
-							<div>
-								<img src="<?php echo base_url('assets/img/aboutus/axzo.png') ?>" alt="">
-							</div>
-						</a>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="top-category">
+							<a href="#!">
+								<div>
+									<img src="<?php echo base_url('assets/img/aboutus/axzo.png') ?>" alt="">
+								</div>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-					<div class="top-category">
-						<a href="#!">
-							<div>
-								<img src="<?php echo base_url('assets/img/aboutus/tmbc.png') ?>" alt="">
-							</div>
-						</a>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+						<div class="top-category">
+							<a href="#!">
+								<div>
+									<img src="<?php echo base_url('assets/img/aboutus/tmbc.png') ?>" alt="">
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 
 	<section id="contact-us">
 		<div class="container">
@@ -163,7 +165,7 @@
 	</section>
 
 	<div class="modal fade" id="peopleModalCenter" tabindex="-1" role="dialog" aria-labelledby="peopleModalCenterTitle" aria-hidden="true">
-  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-body">
 					<div class="container-fluid">
@@ -171,7 +173,7 @@
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span class="ti-close" aria-hidden="true"></span>
 							</button>
-							<div class="col-12" data-toggle="modal" data-target="#peopleModalCenter">
+							<div class="col-12">
 								<div class="item-people">
 									<img class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
 									<div class="py-3">

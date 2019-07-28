@@ -1,0 +1,29 @@
+section{
+    &#main-slide-3{
+        >div{
+			background-image: linear-gradient(to right, #981023, #e82a36);
+		}
+        div{
+			&.overlay{
+                opacity: 0;
+                height: 80px;
+            }
+            &.title{
+                p{
+                    &:first-child{
+                        font-size: 24px !important;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    &#content{
+        div{
+             &#map {
+                height: 300px;  /* The height is 400 pixels */
+                width: 100%;  /* The width is the width of the web page */
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
 <body>
 	<?php $this->load->view("include/header.php") ?>
 
-	<section id="content" class="pt-2">
+	<section id="content">
 		<div class="container my-5">
 			<div class="row">
 				<div class="col-md-4">
@@ -19,29 +19,35 @@
 						<div class="row align-items-start">
 							<div class="col-md-4 col-6 mt-4">
 								<div class="card-item">
-									<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
-									<div class="p-3">
-										<p>Coaching</p>
-										<p>Teasing - minutes activities</p>
-									</div>
+									<a href="<?php echo gDomainCourseDetail ?>">
+										<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
+										<div class="p-3">
+											<p>Coaching</p>
+											<p>Teasing - minutes activities</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="col-md-4 col-6 mt-4">
 								<div class="card-item">
-									<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
-									<div class="p-3">
-										<p>Coaching</p>
-										<p>Teasing - minutes activities</p>
-									</div>
+									<a href="<?php echo gDomainCourseDetail ?>">
+										<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
+										<div class="p-3">
+											<p>Coaching</p>
+											<p>Teasing - minutes activities</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="col-md-4 col-6 mt-4">
 								<div class="card-item">
-									<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
-									<div class="p-3">
-										<p>Coaching</p>
-										<p>Teasing - minutes activities</p>
-									</div>
+									<a href="<?php echo gDomainCourseDetail ?>">	
+										<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
+										<div class="p-3">
+											<p>Coaching</p>
+											<p>Teasing - minutes activities</p>
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -49,60 +55,41 @@
 					<div class="card-view mt-4">
 							<p>All courses</p>
 							<div class="row align-items-start">
+							<?php for ($x = 0; $x <= 4; $x++) {?>
 								<div class="col-md-4 col-6 mt-4">
 									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
+										<a href="<?php echo gDomainCourseDetail ?>">	
+											<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
+											<div class="p-3">
+												<p>Coaching</p>
+												<p>Teasing - minutes activities</p>
+											</div>
+										</a>
 									</div>
 								</div>
 								<div class="col-md-4 col-6 mt-4">
 									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
+										<a href="<?php echo gDomainCourseDetail ?>">		
+											<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
+											<div class="p-3">
+												<p>Coaching</p>
+												<p>Teasing - minutes activities</p>
+											</div>
+										</a>
 									</div>
 								</div>
 								<div class="col-md-4 col-6 mt-4">
 									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
+										<a href="<?php echo gDomainCourseDetail ?>">	
+											<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
+											<div class="p-3">
+												<p>Coaching</p>
+												<p>Teasing - minutes activities</p>
+											</div>
+										</a>
 									</div>
 								</div>
-								<div class="col-md-4 col-6 mt-4">
-									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-6 mt-4">
-									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-1.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-6 mt-4">
-									<div class="card-item">
-										<img src="<?php echo base_url('assets/img/card-2.png') ?>" class="img-fluid" alt="">
-										<div class="p-3">
-											<p>Coaching</p>
-											<p>Teasing - minutes activities</p>
-										</div>
-									</div>
-								</div>
+								<?php } ?>
 							</div>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-light py-2">
+<nav class="navbar navbar-expand-lg navbar-light py-2">
 	<div class="container">
 		<a class="navbar-brand" href="<?php echo base_url()?>"><img src="<?php echo base_url('assets/img/logo-qubisa.png') ?>" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -11,4 +11,8 @@ class Course extends CI_Controller{
 	public function subject(){
 		$this->load->view("course/subject");
 	}
+	
+	public function detail(){
+		$this->load->view("course/detail");
+	}
 }

@@ -54,6 +54,9 @@
 .card-view .card-item {
   box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
 }
+.card-view .card-item a {
+  text-decoration: none;
+}
 .card-view .card-item div p {
   font-size: 0.875rem;
   color: #070001;

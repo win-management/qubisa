@@ -87,15 +87,15 @@
 			<div class="owl-carousel owl-viewed-course owl-theme">
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-1.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Isyana</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>
@@ -108,15 +108,15 @@
 				</div>
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Mark Hugh</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>
@@ -129,15 +129,15 @@
 				</div>
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-3.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Isvana</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>
@@ -150,15 +150,15 @@
 				</div>
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Robert</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>
@@ -171,15 +171,15 @@
 				</div>
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Jason</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>
@@ -192,15 +192,15 @@
 				</div>
 				<div class="item card-view">
 					<div class="card-item">
-						<a href="#!">
+						<a href="<?php echo gDomainCourseDetail ?>">
 							<div>
 								<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
 								<div class="p-3">
 									<p>Coaching<br/><span>Steve Light</span></p>
 									<div class="rating">
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
-										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 										<i class="fa fa-star-o"></i>
 										<i class="fa fa-star-o"></i>
 										<span class="rating-text">4,7 (13)</span>

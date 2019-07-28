@@ -1,42 +1,20 @@
-#main-slide {
-  margin-top: 82px;
-}
-@media (max-width: 767px) {
-  #main-slide {
-    margin-top: 66px;
-  }
-}
-#main-slide img {
-  width: 100%;
-}
-#main-slide > div {
-  position: relative;
-}
-#main-slide div.title {
-  width: 100%;
-  background-color: #aa222f;
-  opacity: 0.84;
-  border: solid 0.5px #707070;
-  position: absolute;
-  bottom: 0px;
-}
-#main-slide div.title p {
-  margin-bottom: 0px;
-  font-size: 21px;
-  font-weight: 600;
-  color: #ffffff;
-}
-
 #about-us, #contact-us {
   background-color: #f1f2f2;
   font-weight: 600;
 }
 
 #key-people, #our-partner {
-  margin-bottom: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 #key-people h6, #our-partner h6 {
   font-weight: 600;
+}
+
+#div-background {
+  background-image: url("../img/aboutus/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about-us .row > div {
@@ -81,9 +59,10 @@
   font-weight: 500;
 }
 
-#our-partner {
-  margin-bottom: 100px !important;
+#key-people {
+  padding-top: 5rem !important;
 }
+
 #our-partner .row > div img {
   display: block;
   width: 150px;
@@ -103,13 +82,14 @@
 }
 #contact-us div .btn-primary {
   margin: 0 auto;
-  padding: 14px 4rem;
+  padding: 10px 4rem;
   font-size: 16px;
 }
 
 #peopleModalCenter .close {
   position: absolute;
   right: 20px;
+  z-index: 99;
 }
 
 /*# sourceMappingURL=aboutus.css.map */

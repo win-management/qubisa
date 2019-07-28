@@ -1,0 +1,33 @@
+section{
+    &#main-slide-3{
+        >div{
+			background-image: url("../img/benefit/main-image.jpg");
+		}
+        div{
+			&.overlay{
+                opacity: 0;
+            }
+        }
+    }
+
+    &.benefit-container{
+        border-bottom:0.5px solid #707070;
+        &.b-even{
+            background-color: #f1f2f2;
+        }
+        img{
+            width: 80px;
+        }
+        p{
+            font-weight: 500;
+            &.title{
+                font-weight: 600;
+            }
+        }
+    }
+
+    &#load-more{
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+}

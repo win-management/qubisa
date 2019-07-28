@@ -9,11 +9,11 @@
 		</select>
 		<ul class="list-unstyled">
 			<li><a href="<?php echo base_url('aboutus')?>">Tentang kami</a></li>
-			<li><a href="#!">Apa yang Anda dapat</a></li>
+			<li><a href="<?php echo base_url('benefit')?>">Apa yang Anda dapat</a></li>
 		</ul>
 		<ul class="list-unstyled">
 			<li><a href="#!">Karir</a></li>
-			<li><a href="#!">Kontak kami</a></li>
+			<li><a href="<?php echo base_url('contactus')?>">Kontak kami</a></li>
 			<li><a href="#!">Tutorial</a></li>
 		</ul>
       </div>
