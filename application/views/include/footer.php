@@ -4,8 +4,8 @@
     <div class="row">
       <div class="col-md-8">
 	  	<select class="selectpicker dropup mb-4" data-dropup-auto="false">
-			<option>Bahasa Indonesia</option>
-			<option>English</option>
+			<option><i class="fa fa-globe" aria-hidden="true"></i> Bahasa Indonesia</option>
+			<option><i class="fa fa-globe" aria-hidden="true"></i> English</option>
 		</select>
 		<ul class="list-unstyled">
 			<li><a href="<?php echo base_url('aboutus')?>">Tentang kami</a></li>
@@ -14,7 +14,7 @@
 		<ul class="list-unstyled">
 			<li><a href="#!">Karir</a></li>
 			<li><a href="<?php echo base_url('contactus')?>">Kontak kami</a></li>
-			<li><a href="#!">Tutorial</a></li>
+			<li><a href="#!">Dukungan</a></li>
 		</ul>
       </div>
 	  <hr class="clearfix w-100 d-md-none pb-3">		
@@ -30,7 +30,7 @@
 						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-twitter.png') ?>" alt=""></a></li>
 						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-youtube.png') ?>" alt=""></a></li>
 				</ul>
-				<div class="footer-copyright text-center pb-1 pb-sm-5">© 2019 QuBisa.com</div>
+				<div class="footer-copyright text-center pb-1 pb-sm-5">© <?php echo date("Y");?> QuBisa.com</div>
       </div>
     </div>
   </div>
@@ -45,5 +45,5 @@
 <script type="text/javascript" src="<?php echo base_url('assets/libs/bootstrap-select/js/bootstrap-select.min.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/modernizr.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/css-scrollbars.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/js/cons.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/js/main.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/cons.js'."?v=".version) ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/main.js'."?v=".version) ?>"></script>

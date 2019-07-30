@@ -29,15 +29,9 @@ $(document).ready(function() {
 		},
 		appendTo: '#search-container'
 	}).data("ui-autocomplete")._renderItem = function (ul, item) {
-		//Add the .ui-state-disabled class and don't wrap in <a> if value is empty
-		//console.log(item);
-		if(item.value =='0'){
-			return $('<li class="ui-state-disabled">'+item.label+'<a href="'+g_DomainCourse+'" class="btn btn-primary">View All Courses</div></li>').appendTo(ul);
-		}else{
-			return $('<li class="ui-menu-item">')
-			.append('<a>' + item.label + '</a>')
+		return $('<li class="ui-menu-item">')
+			.append('<a><i class="ti-file"></i>' + item.label + '</a>')
 			.appendTo(ul);
-		}
 	};
 
 	$(".form-search").submit(function(e){

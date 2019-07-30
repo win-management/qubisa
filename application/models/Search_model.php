@@ -12,11 +12,6 @@ class Search_model extends CI_Model
 		$result = array(
 			array(
 				"category" => "Art",
-				"value" => "0",
-				"label" => "Category Courses"
-			),
-			array(
-				"category" => "Art",
 				"value" => "1",
 				"label" => "Architecture"
 			),

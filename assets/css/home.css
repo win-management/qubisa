@@ -59,13 +59,9 @@
 #main-slide .owl-nav button:hover {
   background: none;
 }
-#main-slide .owl-nav button img {
-  width: 15px;
-}
-@media (min-width: 1366px) {
-  #main-slide .owl-nav button img {
-    width: 25px;
-  }
+#main-slide .owl-nav button i {
+  font-size: 28px;
+  color: #fff;
 }
 
 section .container .row > div {
@@ -184,7 +180,7 @@ section .container .row > div {
   font-weight: 600;
 }
 #participant-course .owl-carousel .card-item div p.desciption {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 24px;
 }

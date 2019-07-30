@@ -303,6 +303,6 @@
 
 	<?php $this->load->view("include/footer.php") ?>
 	<script type="text/javascript" src="<?php echo base_url('assets/libs/owlcarousel/owl.carousel.min.js') ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/home.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/home.js?v='.version) ?>"></script>
 </body>
 </html>

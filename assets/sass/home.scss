@@ -63,11 +63,9 @@
 				background: none;
 			}
 
-			img{
-				width: 15px;
-				@media (min-width: 1366px) { 
-					width: 25px;
-				}
+			i{
+				font-size: 28px;
+				color: #fff;
 			}
 		}
 	}
@@ -219,7 +217,7 @@ section{
 						font-weight: 600;
 					}
 					&.desciption{
-						font-size: 12px;
+						font-size: 13px;
 						font-weight: 500;
     					line-height: 24px;
 					}

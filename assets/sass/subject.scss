@@ -70,6 +70,25 @@ section{
 					float:none !important;
 				}
 			}
+			.dropdown{
+				p{
+					margin-bottom: 1rem;
+					cursor:pointer;
+				}
+				.dropdown-menu{
+					border: 0.5px solid #707070;
+					padding: 0px;
+					font-size: 14px;
+					a{
+						&:hover{
+							background-color: #f2f3f5;
+							color: #f11515;
+							margin-left: 0.5px;
+							width: 99%;
+						}
+					}
+				}
+			}
 		}
 	
 		.card-view{

@@ -70,6 +70,21 @@ section#content .subject-title i {
     float: none !important;
   }
 }
+section#content .subject-title .dropdown p {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+section#content .subject-title .dropdown .dropdown-menu {
+  border: 0.5px solid #707070;
+  padding: 0px;
+  font-size: 14px;
+}
+section#content .subject-title .dropdown .dropdown-menu a:hover {
+  background-color: #f2f3f5;
+  color: #f11515;
+  margin-left: 0.5px;
+  width: 99%;
+}
 section#content .card-view {
   margin-left: 0px;
   margin-right: 0px;

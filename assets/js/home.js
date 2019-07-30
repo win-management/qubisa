@@ -8,7 +8,7 @@ $(document).ready(function() {
 		autoplay:true,
 		autoplayTimeout:5000,
 		autoplayHoverPause:true,
-  		navText: ["<img src='assets/img/arrow-l.png'>","<img src='assets/img/arrow-r.png'>"]
+  		navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"]
 	});
 
 	var owl_course = $('.owl-viewed-course');
