@@ -1,0 +1,126 @@
+section{
+	&#main-slide-3{
+		>div{
+			background-image: url("../img/user/course/main-image.jpg");
+			@media (max-width: 767px) { 
+				background-image: url("../img/user/course/main-image.jpg");
+			}
+		}
+
+		div{
+			&.overlay{
+				opacity: 0;
+			}
+		}
+	}
+
+	&#filter{
+		form{
+			.form-group{
+				display:inline-block;
+				margin-right: 10px;
+				label{
+					font-size: 15px;
+				}
+				select{
+					border-radius: 20px;
+					padding: 0.5rem 2rem;
+					background-color: #fff;
+					color: #0a0a0a;
+					font-weight: 600;
+					font-size: 14px;
+					border: 0.5px solid #f11515;
+
+					 /* reset */
+
+					margin: 0;      
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+					-webkit-appearance: none;
+					-moz-appearance: none;
+
+					background-image:
+					linear-gradient(45deg, transparent 50%, gray 50%),
+					linear-gradient(135deg, gray 50%, transparent 50%);
+					background-position:
+					calc(100% - 20px) calc(1em + 2px),
+					calc(100% - 15px) calc(1em + 2px);
+					background-size:
+					5px 5px,
+					5px 5px;
+					background-repeat: no-repeat;
+					
+					&:active,&:focus,&:link,&:visited,&:hover{
+						outline: none !important;
+						box-shadow: none !important;
+					}
+				}
+				#filterSelect{
+					display: flex;
+					select{
+						&:first-child{
+							margin-right: 15px;
+						}
+					}
+				}
+			}
+		}
+		.form-search{
+			width:100%;
+			margin-top: 25px;
+			@media (max-width: 992px) { 
+				margin-top:10px;
+			}
+			@media (min-width: 1024px) { 
+				width: 120%;
+				position: relative;
+				right: 20%;
+			}
+			div{
+				border-radius:20px;
+				padding: .5rem 1rem;
+				background-color:#fff;
+				color: #0a0a0a;
+				font-weight: 600;
+				font-size: 14px;
+				border: 0.5px solid #707070;
+				i{
+					color:#0a0a0a;
+					font-weight: bold;
+					margin-left: 10px;
+					position: relative;
+					top: 2px;
+				}
+				input{
+					width: calc(100% - 2rem);
+					border: none;
+					outline: none;
+					font-weight: 600;
+					&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+						color: #0a0a0a;
+						font-weight: 600;
+						opacity: 1; /* Firefox */
+					}
+					
+					&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+						color: #0a0a0a;
+						font-weight: 600;
+					}
+					
+					&::-ms-input-placeholder { /* Microsoft Edge */
+						color: #0a0a0a;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+		#search-container{
+			margin-left: -85px;
+			ul{
+				top: 150px !important;
+				text-align: left;
+			}
+		}
+	}
+}

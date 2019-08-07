@@ -93,6 +93,20 @@ define('SITE_NAME', 'QuBisa');
 define('version', '0.1');
 
 define('gDomainName', 'http://localhost/qubisa');
+
+define('gDomainSignIn', gDomainName.'/signin');
+define('gDomainSignUp', gDomainName.'/signup');
+define('gDomainSignOut', gDomainName.'/signout');
+define('gDomainContactUs', gDomainName.'/contactus');
+define('gDomainAboutUs', gDomainName.'/aboutus');
+define('gDomainBenefit', gDomainName.'/benefit');
+define('gDomainSupport', gDomainName.'/support');
+define('gDomainCareer', gDomainName.'/careers');
+
+define('gDomainMyCourse', gDomainName.'/user/my-course');
+define('gDomainProfile', gDomainName.'/user/edit-profile');
+define('gDomainAccount', gDomainName.'/user/edit-account');
+
 define('gDomainCourse', gDomainName.'/courses');
 define('gDomainCourseSubject', gDomainCourse.'/subject');
 define('gDomainCourseDetail', gDomainCourse.'/detail');

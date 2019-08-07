@@ -4,7 +4,7 @@
 	<?php $this->load->view("include/incmeta.php") ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/owlcarousel/assets/owl.carousel.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/owlcarousel/assets/owl.theme.default.min.css') ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/home.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/home.css?v='.version) ?>">
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -13,7 +13,7 @@
 
 	<section id="popular-categories" class="my-5">
 		<div class="container">
-			<h6 class="pb-2 mb-0 title">Popular Category</h6>
+			<h6 class="pb-2 mb-0 title">Kategori populer</h6>
 			<div class="row">
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<div class="top-category">
@@ -83,7 +83,7 @@
 
 	<section id="viewed-course" class="my-5">
 		<div class="container">
-			<h6 class="pb-3 mb-0 title">Viewed Course</h6>
+			<h6 class="pb-3 mb-0 title">Peserta melihat</h6>
 			<div class="owl-carousel owl-viewed-course owl-theme">
 				<div class="item card-view">
 					<div class="card-item">
@@ -217,7 +217,7 @@
 
 	<section id="participant-course" class="my-5">
 		<div class="container">
-			<h6 class="pb-3 mb-0 title">Comment Participant Course</h6>
+			<h6 class="pb-3 mb-0 title">Komentar peserta kursus</h6>
 			<div class="owl-carousel owl-participant-course owl-theme">
 				<div class="item card-view">
 					<div class="card-item">

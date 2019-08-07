@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php $this->load->view("include/incmeta.php") ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/aboutus.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/aboutus.css?v='.version) ?>">
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -60,7 +60,7 @@
 						<p class="desc">Siswa kami berasal dari setiap negara di dunia! Apakah Anda tertarik pada ilmu komputer, bahasa, teknik, psikologi, penulisan, elektronik, biologi, atau pemasaran, kami meliliki kursus untuk Anda! Daftarkan diri Anda hari ini dan pelajari sesuatu yang baru.</p>
 					</div>
 					<div class="col-12 our-difference">
-						<p>Our Difference</p>
+						<p>Perbedaan Kami</p>
 						<p class="desc">Kami didirikan oleh dan terus diperintah oleh perguruan tinggi dan universitas. Kami adalah satu-satunya penyedia MOOC terkemuka yang bersifat nirlaba dan open source.</p>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 					<div class="row">
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
 							<div class="item-people">
-								<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
+								<img data-aos="fade-right" data-aos-delay="400" data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-1.png') ?>" alt="">
 								<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
 									<p>Mark S</p>
 									<p class="desciption">Founder Commissioner</p>
@@ -83,7 +83,7 @@
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
 							<div class="item-people">
-								<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-2.png') ?>" alt="">
+								<img data-aos="fade-right" data-aos-delay="400" data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-2.png') ?>" alt="">
 								<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
 									<p>Steve</p>
 									<p class="desciption">Co Founder CEO</p>
@@ -92,7 +92,7 @@
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
 							<div class="item-people">
-								<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-3.png') ?>" alt="">
+								<img data-aos="fade-right" data-aos-delay="400" data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-3.png') ?>" alt="">
 								<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
 									<p>Aida Aisha</p>
 									<p class="desciption">Director</p>
@@ -101,7 +101,7 @@
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
 							<div class="item-people">
-								<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-4.png') ?>" alt="">
+								<img data-aos="fade-right" data-aos-delay="400" data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/aboutus/people-4.png') ?>" alt="">
 								<div data-toggle="modal" data-target="#peopleModalCenter" class="py-3">
 									<p>Bram</p>
 									<p class="desciption">Vice President</p>
@@ -117,7 +117,7 @@
 					<h6 class="pb-2 mb-0 title">Mitra Kami</h6>
 					<div class="row">
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<div class="top-category">
+							<div class="top-category" data-aos="fade-up" data-aos-delay="400">
 								<a href="#!">
 									<div>
 										<img src="<?php echo base_url('assets/img/aboutus/psi.png') ?>" alt="">
@@ -126,7 +126,7 @@
 							</div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<div class="top-category">
+							<div class="top-category" data-aos="fade-up" data-aos-delay="400">
 								<a href="#!">
 									<div>
 										<img src="<?php echo base_url('assets/img/aboutus/rbl.png') ?>" alt="">
@@ -135,7 +135,7 @@
 							</div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<div class="top-category">
+							<div class="top-category" data-aos="fade-up" data-aos-delay="400">
 								<a href="#!">
 									<div>
 										<img src="<?php echo base_url('assets/img/aboutus/qpr.png') ?>" alt="">
@@ -145,7 +145,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<div class="top-category">
+							<div class="top-category" data-aos="fade-up" data-aos-delay="400">
 								<a href="#!">
 									<div>
 										<img src="<?php echo base_url('assets/img/aboutus/axzo.png') ?>" alt="">
@@ -154,7 +154,7 @@
 							</div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<div class="top-category">
+							<div class="top-category" data-aos="fade-up" data-aos-delay="400">
 								<a href="#!">
 									<div>
 										<img src="<?php echo base_url('assets/img/aboutus/tmbc.png') ?>" alt="">
@@ -173,7 +173,7 @@
 					<div class="col-12">
 					<div class="text-center">	
 						<p>Ingin mengetahui lebih lanjut?</p>
-						<a href="#!"><div class="btn btn-primary">Hubungi Kami</div></a>
+						<a href="<?php echo gDomainContactUs ?>"><div class="btn btn-primary">Hubungi Kami</div></a>
 					</div>
 					</div>
 				</div>
@@ -215,6 +215,6 @@
 	</div>
 
 	<?php $this->load->view("include/footer.php") ?>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/aboutus.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/aboutus.js?v='.version) ?>"></script>
 </body>
 </html>

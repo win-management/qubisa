@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php $this->load->view("include/incmeta.php") ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/signup.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/signup.css?v='.version) ?>">
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -64,7 +64,7 @@
 					<div class="w-100">
 						<div class="row">
 							<div class="btn-login w-100">
-								<a class="btn btn-default" href="<?php echo base_url('signin')?>">Masuk</a>
+								<a class="btn btn-default" href="<?php echo gDomainSignIn ?>">Masuk</a>
 								<div>
 									<div class="text-center">Sudah punya akun</div>
 									<div class="text-center">Silakan masuk</div>
@@ -78,6 +78,6 @@
 	</div>
 
 	<?php $this->load->view("include/footer.php") ?>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/signup.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/signup.js?v='.version) ?>"></script>
 </body>
 </html>

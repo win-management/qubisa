@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php $this->load->view("include/incmeta.php") ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/contactus.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/contactus.css?v='.version) ?>">
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -13,6 +13,7 @@
 					<div class="container">
 						<div class="row">
 							<p class="col-12">Hubungi kami</p>
+							<p class="col-12"></p>
 						</div>
 					</div>
 				</div>
@@ -39,22 +40,22 @@
 			<div class="container">
 				<div class="row">
 				<div class="col-12 col-md-6">
-						<p class="title">Kirim Pesan</p>
+						<p class="contact-title">Kirim Pesan</p>
 						<form id="contactus-form" name="contactus-form" action="#!" method="post">
 							<div class="form-group">
-								<label class="title" for="name">Nama</label>
+								<label class="contact-title" for="name">Nama</label>
 								<input class="form-control" type="text" id="name" name="name" placeholder="">
 							</div>
 							<div class="form-group">
-								<label class="title" for="email">Email</label>
+								<label class="contact-title" for="email">Email</label>
 								<input class="form-control" type="email" id="email" name="email" placeholder="">
 							</div>
 							<div class="form-group">
-								<label class="title" for="title">Judul</label>
+								<label class="contact-title" for="title">Judul</label>
 								<input class="form-control" type="text" id="title" name="title" placeholder="">
 							</div>
 							<div class="form-group">
-								<label class="title" for="comment">Bagaimana kami dapat membantu Anda?</label>
+								<label class="contact-title" for="comment">Bagaimana kami dapat membantu Anda?</label>
 								<textarea class="form-control" rows="5" id="comment"></textarea>
 							</div>
 							<div class="form-group">
@@ -62,21 +63,21 @@
 							</div>
 						</form>
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6 contact-detail">
 						<div class="col-12">
-							<p class="title">Jam Operasional</p>
+							<p class="contact-title">Jam Operasional</p>
 							<p class="desc">Setiap hari kerja pukul 09.00 - 17.30 WIB</p>
 						</div>
 						<div class="col-12">
-							<p class="title">Email</p>
+							<p class="contact-title">Email</p>
 							<p class="desc">Anda bisa mengirimkan email ke support@qubisa.co.id</p>
 						</div>
 						<div class="col-12">
-							<p class="title">Dukungan Layanan Pelanggan</p>
+							<p class="contact-title">Dukungan Layanan Pelanggan</p>
 							<p class="desc">Untuk respon lebih cepat Anda bisa menghubungi Layanan Pelanggan kami di +62 21xxxxx</p>
 						</div>
 						<div class="col-12">
-							<p class="title">Alamat</p>
+							<p class="contact-title">Alamat</p>
 							<div id="map"></div>
 						</div>
 				</div>

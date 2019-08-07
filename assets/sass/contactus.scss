@@ -12,7 +12,8 @@ section{
                 p{
                     &:first-child{
                         font-size: 24px !important;
-                        text-transform: uppercase;
+						text-transform: uppercase;
+						margin-bottom: 0px !important;
                     }
                 }
             }
@@ -23,7 +24,20 @@ section{
              &#map {
                 height: 300px;  /* The height is 400 pixels */
                 width: 100%;  /* The width is the width of the web page */
-            }
-        }
+			}
+			&.contact-detail{
+				@media (max-width: 767px) { 
+					margin-top: 2rem;
+				}
+				.col-12{
+					@media (max-width: 767px) { 
+						padding: 0px;
+					}
+				}
+			}
+		}
+		.contact-title{
+			font-weight: 600;
+		}
     }
 }

@@ -1,6 +1,6 @@
 <section id="filter">
 	<ul class="list-unstyled">
-		<li>Refine your search</li>
+		<li>Filter pencarian</li>
 		<li>
 			<ul class="list-unstyled">
 				<li>Availability</li>

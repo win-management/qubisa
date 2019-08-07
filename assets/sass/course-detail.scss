@@ -63,8 +63,9 @@
 					#detail-tab-content{
 						#div-overview, #div-content{
 							.row{
-								.title{
+								h6{
 									color: #f11515;
+									font-weight: 600;
 								}
 
 								.form-enroll{
@@ -161,10 +162,31 @@
 							}
 						}
 
+						#div-enroll,#div-enroll-2,.sticky-wrapper{
+							@media (max-width: 767px) { 
+								display:none;
+							}
+						}
+
+						#div-enroll,#div-enroll-2{
+							.form-check{
+								display:none;
+								label{
+									font-size: 13px;
+									@media (max-width: 992px) { 
+										font-size: 12px;
+									}
+								}
+							}
+						}
+
 						#div-enroll-2{
 							min-width: 270px;
 							bottom: initial !important;
 							top: 4px;
+							@media (max-width: 992px) { 
+								min-width: 200px;
+							}
 						}
 					}
 				}

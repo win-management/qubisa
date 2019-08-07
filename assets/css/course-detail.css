@@ -55,8 +55,9 @@
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
   border-bottom: solid 0.5px #707070;
 }
-#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .title, #content > .container > .row > .col-12 > div #detail-tab-content #div-content .row .title {
+#content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row h6, #content > .container > .row > .col-12 > div #detail-tab-content #div-content .row h6 {
   color: #f11515;
+  font-weight: 600;
 }
 #content > .container > .row > .col-12 > div #detail-tab-content #div-overview .row .form-enroll .btn, #content > .container > .row > .col-12 > div #detail-tab-content #div-content .row .form-enroll .btn {
   padding: 10px 50px;
@@ -127,10 +128,31 @@
 #content > .container > .row > .col-12 > div #detail-tab-content .is-sticky #div-enroll, #content > .container > .row > .col-12 > div #detail-tab-content .is-sticky #div-enroll-2 {
   background-color: #ffffff;
 }
+@media (max-width: 767px) {
+  #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll, #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2, #content > .container > .row > .col-12 > div #detail-tab-content .sticky-wrapper {
+    display: none;
+  }
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-enroll .form-check, #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2 .form-check {
+  display: none;
+}
+#content > .container > .row > .col-12 > div #detail-tab-content #div-enroll .form-check label, #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2 .form-check label {
+  font-size: 13px;
+}
+@media (max-width: 992px) {
+  #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll .form-check label, #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2 .form-check label {
+    font-size: 12px;
+  }
+}
 #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2 {
   min-width: 270px;
   bottom: initial !important;
   top: 4px;
+}
+@media (max-width: 992px) {
+  #content > .container > .row > .col-12 > div #detail-tab-content #div-enroll-2 {
+    min-width: 200px;
+  }
 }
 
 #peopleModalCenter button.close {

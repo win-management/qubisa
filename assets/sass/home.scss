@@ -32,13 +32,13 @@
 			.owl-dot{
 				outline: none;
 				span{
-					border: 1px solid #555555;
+					border: 1px solid rgb(219, 219, 219);
 					width: 12px;
 					height: 12px;
 				}
 				&.active{
 					span{
-						background: #555555;
+						background: #aa222f;
 					}
 				}
 			}
@@ -89,6 +89,9 @@ section{
 				opacity: 1;
 				overflow: hidden;
 				padding: 10px 15px;
+				@media (max-width: 767px) { 
+					padding: 10px 8px;
+				}
 				a{
 					color: #981023;
 					display: inline-block;
@@ -98,6 +101,9 @@ section{
 					}
 					img{
 						width: 35px;
+						@media (max-width: 767px) { 
+							width: 45px;
+						}
 					}
 					div{
 						height: 50px;
@@ -109,6 +115,13 @@ section{
 						min-width: 1px;
 						margin-left: 8px;
 						font-weight: 500;
+						@media (min-width: 767px) and (max-width: 992px) { 
+							font-size: 14px;
+						}
+						@media (max-width: 767px) { 
+							margin-left: 10px;
+							font-size: 16px;
+						}
 					}
 				}
 			}
@@ -184,16 +197,16 @@ section{
 				p{
 					&:first-child{
 						font-weight: 800;
-						font-size: 18px;
+						font-size: 16px;
 						span{
 							font-weight: 600;
-							font-size: 16px;
+							font-size: 14px;
 						}
 					}
 					&.info-status{
 						text-transform: uppercase;
 						font-weight: 600;
-						font-size: 12px;
+						font-size: 11px;
 					}
 				}
 			}

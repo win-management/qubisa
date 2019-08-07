@@ -1,0 +1,100 @@
+section#main-slide-3 > div {
+  background-image: url("../img/support/main-image.jpg");
+}
+section#main-slide-3 div.overlay {
+  opacity: 0;
+}
+section#main-slide-3 div.title .container p {
+  color: #0a0a0a;
+}
+@media (max-width: 767px) {
+  section#main-slide-3 div.title .container p:first-child {
+    color: #ffffff;
+  }
+}
+section#content #accordionTabSupport {
+  border: solid 0.5px #707070;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 0px;
+}
+section#content #accordionTabSupport > li {
+  border: none;
+  width: 100%;
+  margin-bottom: 0px;
+  border-bottom: 0.5px solid #707070;
+  border-radius: 0px;
+}
+section#content #accordionTabSupport > li:first-child {
+  border-top: 0.5px solid #707070;
+}
+section#content #accordionTabSupport > li a {
+  border: none;
+  border-radius: 0px;
+}
+section#content #accordionTabSupport > li a:active, section#content #accordionTabSupport > li a:focus, section#content #accordionTabSupport > li a:link, section#content #accordionTabSupport > li a:visited, section#content #accordionTabSupport > li a:hover {
+  text-decoration: none;
+}
+section#content #accordionTabSupport > li a.active {
+  border-bottom: 0.5px solid #707070;
+}
+section#content #accordionTabSupport > li a .card-header {
+  background: #ffffff;
+  border: none;
+  padding: 0px;
+}
+section#content #accordionTabSupport > li a .card-header button {
+  width: 100%;
+  text-align: left;
+  color: #0a0a0a;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+section#content #accordionTabSupport > li a .card-header button:active, section#content #accordionTabSupport > li a .card-header button:focus, section#content #accordionTabSupport > li a .card-header button:link, section#content #accordionTabSupport > li a .card-header button:visited, section#content #accordionTabSupport > li a .card-header button:hover {
+  text-decoration: none;
+}
+section#content #accordionTabSupport > li .collapse .card-body, section#content #accordionTabSupport > li .collapsing .card-body {
+  padding: 10px 15px;
+}
+section#content #accordionTabSupport > li .collapse .card-body ul, section#content #accordionTabSupport > li .collapsing .card-body ul {
+  font-size: 13px;
+  font-weight: 600;
+}
+section#content #accordionTabSupport > li .collapse .card-body ul li, section#content #accordionTabSupport > li .collapsing .card-body ul li {
+  padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+  section#content #accordionTabSupportContent {
+    margin-top: 30px;
+  }
+}
+section#content #accordionTabSupportContent h6 {
+  font-size: 20px;
+  padding: 12.5px 0px;
+  border-bottom: 0.5px solid #707070;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+section#content #accordionTabSupportContent ul {
+  font-size: 13px;
+}
+section#content #accordionTabSupportContent ul li {
+  padding-bottom: 10px;
+}
+section#content #accordionTabSupportContent ul li div.question {
+  font-weight: 600;
+}
+section#content #accordionTabSupportContent ul li div.answer span {
+  font-weight: 600;
+}
+section#content #accordionTabSupportContent ul li div.answer ol {
+  list-style-type: upper-alpha;
+  padding-left: 15px;
+}
+section#content #accordionTabSupportContent ul li div.answer ol ol {
+  list-style-type: decimal;
+  padding-left: 15px;
+}
+
+/*# sourceMappingURL=support.css.map */

@@ -37,14 +37,19 @@
 
 #key-people .item-people img, #peopleModalCenter .item-people img {
   display: block;
-  width: 130px !important;
+  width: 120px !important;
   margin: 30px 0px 10px 0px;
   border: 1px solid #ddd;
   cursor: pointer;
 }
-@media (max-width: 767px) {
+@media (width: 768px) {
   #key-people .item-people img, #peopleModalCenter .item-people img {
     width: 110px !important;
+  }
+}
+@media (max-width: 767px) {
+  #key-people .item-people img, #peopleModalCenter .item-people img {
+    width: 90px !important;
   }
 }
 #key-people .item-people div p, #peopleModalCenter .item-people div p {
@@ -65,11 +70,27 @@
 
 #our-partner .row > div img {
   display: block;
-  width: 150px;
+  width: 130px;
   margin: 20px 0px;
 }
+@media (width: 768px) {
+  #our-partner .row > div img {
+    width: 120px;
+  }
+}
+@media (max-width: 767px) {
+  #our-partner .row > div img {
+    width: 100px;
+  }
+}
 #our-partner .row > div:last-child img {
-  width: 100px;
+  width: 90px;
+}
+@media (max-width: 767px) {
+  #our-partner .row > div:last-child img {
+    width: 80px;
+    margin-top: 0px;
+  }
 }
 
 #contact-us {

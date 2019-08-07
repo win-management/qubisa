@@ -1,0 +1,196 @@
+.btn{
+	font-size: 16px;
+	padding: 0.75rem 1.25rem;
+}
+
+section{
+	&#main-slide-3{
+		>div{
+			background: #f21414; /* Old browsers */
+			background: -moz-linear-gradient(left,  #f21414 0%, #a20f0f 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  #f21414 0%,#a20f0f 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  #f21414 0%,#a20f0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f21414', endColorstr='#a20f0f',GradientType=1 ); /* IE6-9 */
+		}
+
+		div{
+			&.overlay{
+				opacity: 0;
+				height: 200px;
+				@media (max-width: 767px) { 
+					height: 250px;
+				}
+			}
+			&.title{
+				@media (min-width: 1440px) { 
+					max-width: 1200px;
+					left: calc(50% - 600px);
+				}
+				div{
+					height: 100%;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: contain;
+					@media (max-width: 767px) { 
+						height: 50%;
+					}
+					&:first-child{
+						background-image: url("../img/career/main-image-p1.png?v=0.1");
+					}
+					&:last-child{
+						background-image: url("../img/career/main-image-p2.png?v=0.1");
+					}
+				}
+			}
+		}
+	}
+	&#brief{
+		background-color: #f1f2f2;
+		padding: 50px 0px;
+		p{
+			font-weight: 700;
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+	}
+	
+	&#jobs{
+		display: none;
+		.row{
+			>div{
+				margin-top: 15px;
+				>div{
+					box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+					border-radius: 12px;
+					>p{
+						&:first-child{
+							background-color: #f1f2f2;
+							padding: 20px;
+							font-size: 20px;
+							font-weight: 700;
+						}
+					}
+					div{
+						p{
+							&:first-child{
+								margin-bottom: 100px;
+							}
+
+							&:last-child{
+								padding-bottom: 30px;
+								color: #aa222f;
+							}
+						}
+					}
+				}
+				.btn{
+					padding: 0.75rem 3rem;
+				}
+			}
+		}
+	}
+
+	&#job-lists{
+		position: relative;
+		min-height: 500px;
+		@media (max-width: 767px) { 
+			min-height: 450px;
+		}
+		ul{
+			&.nav{
+				display: inline-flex;
+				li{
+					padding-top: 10px;
+					padding-bottom: 10px;
+					padding-right: 20px;
+					@media (max-width: 767px) { 
+						padding-right: 15px;
+					}
+					&:last-child{
+						padding-right: 0px;
+					}
+					a{
+						padding: 15px 28px;
+						border: 0.5px solid #f11515;
+						color: #f11515;
+						font-weight: 600;
+						@media (max-width: 767px) { 
+							padding: 15px 20px;
+						}
+						&.active{
+							background-color: #f11515;
+							color: #ffffff;
+						}
+					}
+				}
+			}
+		}
+		#pills-tabContent{
+			max-width: 600px;
+			margin: 50px auto 50px;
+			@media (max-width: 767px) { 
+				margin: 20px auto 20px;
+			}
+			div{
+				>p{
+					font-weight: 600;
+				}
+				ul{
+					a{
+						color: #0a0a0a;
+						font-weight: 600;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		#div-background{
+			background-image: url(../img/career/joblist-background.png);
+			background-position: left;
+			background-repeat: no-repeat;
+			background-size: contain;
+			color: #ffffff;
+			position: absolute;
+			bottom: 0px;
+			height: 300px;
+			width: 60%;
+			left: -40px;
+			@media (width: 768px) { 
+				height: 200px;
+				width: 60%;
+				left: -20px;
+			}
+			@media (max-width: 767px) { 
+				height: 180px;
+				width: 90%;
+				left: -20px;
+			}
+		}
+	}
+
+	&#more-jobs{
+		background-image: url("../img/career/footer-image.jpg?v=0.1");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #ffffff;
+		@media (width: 768px) { 
+			background-image: url("../img/career/footer-image-md.jpg?v=0.1");
+		}
+		@media (max-width: 767px) { 
+			background-image: url("../img/career/footer-image-m.jpg?v=0.1");
+		}
+		p{
+			font-size: 18px;
+			font-weight: 600;
+			margin-bottom: 30px;
+		}
+		.btn{
+			font-size: 16px;
+			font-weight: 700;
+			color: #f11515;
+			border: none;
+		}
+	}
+}

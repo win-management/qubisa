@@ -118,7 +118,7 @@
 							<form class="form-search">
 								<div><input type="text" id="autocomplete_search_bottom" placeholder="Cari"><i class="ti-search"></i></div>
 							</form>
-							<div id="search-container"></div>
+							<div id="search-bottom-container"></div>
 						</div>
 					</div>
 				</div>
@@ -139,6 +139,6 @@
 	</div>
 
 	<?php $this->load->view("include/footer.php") ?>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/subject.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/subject.js?v='.version) ?>"></script>
 </body>
 </html>

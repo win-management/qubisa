@@ -8,12 +8,26 @@ section#main-slide-3 div.overlay {
 section#main-slide-3 div.title p:first-child {
   font-size: 24px !important;
   text-transform: uppercase;
+  margin-bottom: 0px !important;
 }
 section#content div#map {
   height: 300px;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
+}
+@media (max-width: 767px) {
+  section#content div.contact-detail {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  section#content div.contact-detail .col-12 {
+    padding: 0px;
+  }
+}
+section#content .contact-title {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=contactus.css.map */

@@ -12,6 +12,11 @@
   color: #ffffff;
   font-size: 1.25rem;
 }
+@media (max-width: 992px) {
+  #filter > ul > li:first-child {
+    font-size: 16px;
+  }
+}
 #filter > ul > li:last-child {
   margin-bottom: 50px;
 }
@@ -45,24 +50,10 @@
   color: inherit;
 }
 
-.card-view > p {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #f11515;
-  margin-bottom: 0px;
-}
-.card-view .card-item {
-  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
-}
-.card-view .card-item a {
-  text-decoration: none;
-}
-.card-view .card-item div p {
-  font-size: 0.875rem;
-  color: #070001;
-}
-.card-view .card-item div p:first-child {
-  margin-bottom: 0px;
+@media (min-width: 768px) {
+  .card-view {
+    margin-left: 10px;
+  }
 }
 
 /*# sourceMappingURL=course.css.map */

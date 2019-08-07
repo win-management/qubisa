@@ -18,4 +18,5 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/bootstrap/css/bootstrap.min.css') ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/bootstrap-select/css/bootstrap-select.min.css') ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/jquery-ui/css/jquery-ui.min.css') ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css')."?v=".version ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/aos/css/aos.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css?v='.version) ?>">

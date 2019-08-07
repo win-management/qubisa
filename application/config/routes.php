@@ -53,6 +53,11 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['signout'] = 'signin/deauthorize';
 $route['courses'] = 'course';
 $route['courses/subject'] = 'course/subject';
 $route['courses/detail'] = 'course/detail';
+$route['user/my-course'] = 'user/course';
+$route['user/edit-profile'] = 'user/editprofile';
+$route['user/edit-account'] = 'user/editaccount';
+$route['careers'] = 'career';

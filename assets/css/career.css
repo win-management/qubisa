@@ -1,0 +1,197 @@
+.btn {
+  font-size: 16px;
+  padding: 0.75rem 1.25rem;
+}
+
+section#main-slide-3 > div {
+  background: #f21414;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #f21414 0%, #a20f0f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #f21414 0%, #a20f0f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f21414 0%, #a20f0f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f21414", endColorstr="#a20f0f",GradientType=1 );
+  /* IE6-9 */
+}
+section#main-slide-3 div.overlay {
+  opacity: 0;
+  height: 200px;
+}
+@media (max-width: 767px) {
+  section#main-slide-3 div.overlay {
+    height: 250px;
+  }
+}
+@media (min-width: 1440px) {
+  section#main-slide-3 div.title {
+    max-width: 1200px;
+    left: calc(50% - 600px);
+  }
+}
+section#main-slide-3 div.title div {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 767px) {
+  section#main-slide-3 div.title div {
+    height: 50%;
+  }
+}
+section#main-slide-3 div.title div:first-child {
+  background-image: url("../img/career/main-image-p1.png?v=0.1");
+}
+section#main-slide-3 div.title div:last-child {
+  background-image: url("../img/career/main-image-p2.png?v=0.1");
+}
+section#brief {
+  background-color: #f1f2f2;
+  padding: 50px 0px;
+}
+section#brief p {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+section#jobs {
+  display: none;
+}
+section#jobs .row > div {
+  margin-top: 15px;
+}
+section#jobs .row > div > div {
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+section#jobs .row > div > div > p:first-child {
+  background-color: #f1f2f2;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+section#jobs .row > div > div div p:first-child {
+  margin-bottom: 100px;
+}
+section#jobs .row > div > div div p:last-child {
+  padding-bottom: 30px;
+  color: #aa222f;
+}
+section#jobs .row > div .btn {
+  padding: 0.75rem 3rem;
+}
+section#job-lists {
+  position: relative;
+  min-height: 500px;
+}
+@media (max-width: 767px) {
+  section#job-lists {
+    min-height: 450px;
+  }
+}
+section#job-lists ul.nav {
+  display: inline-flex;
+}
+section#job-lists ul.nav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+@media (max-width: 767px) {
+  section#job-lists ul.nav li {
+    padding-right: 15px;
+  }
+}
+section#job-lists ul.nav li:last-child {
+  padding-right: 0px;
+}
+section#job-lists ul.nav li a {
+  padding: 15px 28px;
+  border: 0.5px solid #f11515;
+  color: #f11515;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  section#job-lists ul.nav li a {
+    padding: 15px 20px;
+  }
+}
+section#job-lists ul.nav li a.active {
+  background-color: #f11515;
+  color: #ffffff;
+}
+section#job-lists #pills-tabContent {
+  max-width: 600px;
+  margin: 50px auto 50px;
+}
+@media (max-width: 767px) {
+  section#job-lists #pills-tabContent {
+    margin: 20px auto 20px;
+  }
+}
+section#job-lists #pills-tabContent div > p {
+  font-weight: 600;
+}
+section#job-lists #pills-tabContent div ul a {
+  color: #0a0a0a;
+  font-weight: 600;
+  text-decoration: underline;
+}
+section#job-lists #div-background {
+  background-image: url(../img/career/joblist-background.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  height: 300px;
+  width: 60%;
+  left: -40px;
+}
+@media (width: 768px) {
+  section#job-lists #div-background {
+    height: 200px;
+    width: 60%;
+    left: -20px;
+  }
+}
+@media (max-width: 767px) {
+  section#job-lists #div-background {
+    height: 180px;
+    width: 90%;
+    left: -20px;
+  }
+}
+section#more-jobs {
+  background-image: url("../img/career/footer-image.jpg?v=0.1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+@media (width: 768px) {
+  section#more-jobs {
+    background-image: url("../img/career/footer-image-md.jpg?v=0.1");
+  }
+}
+@media (max-width: 767px) {
+  section#more-jobs {
+    background-image: url("../img/career/footer-image-m.jpg?v=0.1");
+  }
+}
+section#more-jobs p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+section#more-jobs .btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f11515;
+  border: none;
+}
+
+/*# sourceMappingURL=career.css.map */

@@ -43,12 +43,15 @@
 	.item-people{
 		img{
 			display: block;
-			width: 130px !important;
+			width: 120px !important;
 			margin: 30px 0px 10px 0px;
 			border: 1px solid #ddd;
 			cursor: pointer;
-			@media (max-width: 767px) { 
+			@media (width: 768px) { 
 				width: 110px !important;
+			}
+			@media (max-width: 767px) { 
+				width: 90px !important;
 			}
 		}
 		div{
@@ -76,12 +79,22 @@
 		>div{
 			img{
 				display: block;
-				width: 150px;
+				width: 130px;
 				margin: 20px 0px;
+				@media (width: 768px) { 
+					width: 120px;
+				}
+				@media (max-width: 767px) { 
+					width: 100px;
+				}
 			}
 			&:last-child{
 				img{
-					width: 100px;
+					width: 90px;
+					@media (max-width: 767px) { 
+						width: 80px;
+						margin-top: 0px;
+					}
 				}
 			}
 		}

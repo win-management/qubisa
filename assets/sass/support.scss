@@ -1,0 +1,117 @@
+section{
+    &#main-slide-3{
+        >div{
+			background-image: url("../img/support/main-image.jpg");
+		}
+        div{
+			&.overlay{
+                opacity: 0;
+			}
+			&.title{
+				.container{
+					p{
+						color: #0a0a0a;
+						&:first-child{
+							@media (max-width: 767px) { 
+								color: #ffffff;
+							}
+						}
+					}
+				}
+			}
+        }
+	}
+	
+	&#content{
+		#accordionTabSupport{
+			border: solid 0.5px #707070;
+			border-top: 0px;
+			border-bottom: 0px;
+			border-radius: 0px;
+			>li{
+				border: none;
+				width: 100%;
+				margin-bottom: 0px;
+				border-bottom:0.5px solid #707070;
+				border-radius: 0px;
+				&:first-child{
+					border-top:0.5px solid #707070;
+				}
+				a{
+					border: none;
+					border-radius: 0px;
+					&:active,&:focus,&:link,&:visited,&:hover{
+						text-decoration: none;
+					}
+					&.active{
+						border-bottom:0.5px solid #707070;
+					}
+					.card-header{
+						background: #ffffff;
+						border: none;
+						padding: 0px;
+						button{
+							width: 100%;
+							text-align: left;
+							color: #0a0a0a;
+							padding: 0px;
+							font-size: 16px;
+							font-weight: 600;
+							&:active,&:focus,&:link,&:visited,&:hover{
+								text-decoration: none;
+							}
+						}
+					}
+				}
+				.collapse, .collapsing{
+					.card-body{
+						padding: 10px 15px;
+						ul{
+							font-size: 13px;
+							font-weight: 600;
+							li{
+								padding-bottom: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		#accordionTabSupportContent{
+			@media (max-width: 767px) { 
+				margin-top: 30px;
+			}
+			h6{
+				font-size: 20px;
+				padding: 12.5px 0px;
+				border-bottom: 0.5px solid #707070;
+				font-weight: 600;
+				margin-bottom: 20px;
+			}
+			ul{
+				font-size: 13px;
+				li{
+					padding-bottom: 10px;
+					div{
+						&.question{
+							font-weight: 600;
+						}
+						&.answer{
+							span{
+								font-weight: 600;
+							}
+							ol{
+								list-style-type: upper-alpha;
+								padding-left: 15px;
+								ol{
+									list-style-type: decimal;
+									padding-left: 15px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

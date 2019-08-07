@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php $this->load->view("include/incmeta.php") ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/course.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/course.css?v='.version) ?>">
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -28,9 +28,9 @@
 					<div class="col-md-4">
 						<?php $this->load->view("course/include/filter.php") ?>
 					</div>
-					<div class="col-md-8 pl-4">
+					<div class="col-md-8">
 						<div class="card-view">
-							<p>Feature courses</p>
+							<p>Premium kursus</p>
 							<div class="row align-items-start">
 								<div class="col-md-4 col-6 mt-4">
 									<div class="card-item">
@@ -68,7 +68,7 @@
 							</div>
 						</div>
 						<div class="card-view mt-4">
-								<p>All courses</p>
+								<p>Semua kursus</p>
 								<div class="row align-items-start">
 								<?php for ($x = 0; $x <= 4; $x++) {?>
 									<div class="col-md-4 col-6 mt-4">
@@ -115,6 +115,6 @@
 	</div>
 
 	<?php $this->load->view("include/footer.php") ?>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/course.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/course.js?v='.version) ?>"></script>
 </body>
 </html>

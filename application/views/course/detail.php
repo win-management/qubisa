@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 	<?php $this->load->view("include/incmeta.php") ?>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/libs/video-js/css/video-js.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/course-detail.css?v='.version) ?>">
+
+	<!-- If you'd like to support IE8 -->
+	<script type="text/javascript" src="<?php echo base_url('assets/libs/video-js/js/videojs-ie8.min.js') ?>"></script>
 </head>
 <body>
 	<?php $this->load->view("include/header.php") ?>
@@ -17,14 +21,14 @@
 				<div class="title">
 					<div class="container">
 						<div class="row">
-							<p class="col-12 py-2">Coaching</p>
+							<p class="col-12 py-2">Pelatihan</p>
 						</div>
 					</div>
 				</div>
 				<div class="btn-play">
 					<div class="container">
 						<div class="row">
-							<p class="py-2"><i class="ti-control-play"></i> Intro video</p>
+							<p class="py-2" data-toggle="modal" data-target="#videoModalCenter"><i class="ti-control-play"></i> Intro video</p>
 						</div>
 					</div>
 				</div>
@@ -64,17 +68,17 @@
 								<div class="tab-pane fade show active" id="div-overview" role="tabpanel" aria-labelledby="overview-tab">
 									<ul class="list-unstyled">
 										<li>
-											<p class="float-left">Lectures</p>
+											<p class="float-left">Kuliah</p>
 											<p class="float-right">9</p>
 											<div class="clearfix"></div>
 										</li>
 										<li>
-											<p class="float-left">Skill level</p>
+											<p class="float-left">Tingkah keahlian</p>
 											<p class="float-right">Intermediate</p>
 											<div class="clearfix"></div>
 										</li>
 										<li>
-											<p class="float-left">Languages</p>
+											<p class="float-left">Bahasa</p>
 											<p class="float-right">Bahasa Indonesia</p>
 											<div class="clearfix"></div>
 										</li>
@@ -83,11 +87,11 @@
 										<div class="row">
 											<div class="col-12 col-md-8">
 												<div class="py-4">
-													<h6 class="title">About this course</h6>
+													<h6>Tentang kursus ini</h6>
 													<p class="col-10">Seseorang coach akan lebih efektif melakukan dialog coachingnya apabila dia menguasai beberapa keterampilan dasar, seperti mendengarkan, memberikan umpan balik, dan bertanya yang meng inspirasi.</p>
 												</div>
 												<div class="pb-4">
-													<h6 class="title">Who should join this course</h6>
+													<h6>Siapa yang seharusnya mengikuti kursus ini?</h6>
 													<ul class="list-unstyled">
 														<li>What they do?</li>
 														<li>Dosen</li>
@@ -101,7 +105,7 @@
 													</ul>
 												</div>
 												<div class="pb-4">
-													<h6 class="title">Viewers watch this course</h6>
+													<h6>Siapa yang melihat kursus ini?</h6>
 													<ul class="list-unstyled mb-1">
 														<li>What they do?</li>
 														<li>Dosen</li>
@@ -110,7 +114,7 @@
 													</ul>
 												</div>
 												<div class="pb-4">
-													<h6 class="title">Instructor</h6>
+													<h6>Instruktur</h6>
 													<div class="item-people">
 														<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/course/people.png') ?>" alt="">
 														<p data-toggle="modal" data-target="#peopleModalCenter" class="pt-3 author-title">Author: Isvana</p>
@@ -121,7 +125,12 @@
 												<div id="div-enroll" class="py-4">
 													<form class="form-enroll sidebar_inner" action="#!" method="post">
 														<input class="btn btn-primary" type="submit" id="enroll" value="Daftar"/>
-														<p class="px-0 py-3 col-10"><input type="checkbox" name="tnc" value="tnc"> I would like to receive email from Tsinghua University and learn about</p> 
+														<div class="form-check pt-2 d-none">
+															<input class="form-check-input" type="checkbox" value="tnc" id="tnc" name="tnc">
+															<label class="form-check-label" for="tnc">
+																I would like to receive email from Tsinghua University and learn about
+															</label>
+														</div>
 													</form>
 												</div>
 											</div>
@@ -132,8 +141,8 @@
 										<div class="row">
 											<div class="col-12">
 												<div id="div-rating" class="pb-4">
-													<h6 class="title">Student Feedback/Rate course</h6>
-													<h4>4.5 Average Rating</h4>
+													<h6>Ulasan peserta/penilaian</h6>
+													<h4>4.5 Penilaian Rata-rata</h4>
 													<div class="row">
 														<div class="col-md-4 col-12 px-0">
 															<div class="progress">
@@ -244,17 +253,17 @@
 										<div class="row">
 											<div class="col-12 col-md-8">
 												<div class="py-4">
-													<h6 class="title">Introduction</h6>
+													<h6>Pengenalan</h6>
 												</div>
 												<div class="pb-4">
-													<h6 class="title">Materi yang akan dibahas</h6>
+													<h6>Materi yang akan dibahas</h6>
 													<ul class="list-unstyled">
 														<li>Keterampilan dalam coaching</li>
 														<li>Approaching</li>
 													</ul>
 												</div>
 												<div class="pb-4">
-													<h6 class="title">Kursus ini terdiri dari:</h6>
+													<h6>Kursus ini terdiri dari:</h6>
 													<ul id="ul-course" class="list-unstyled mb-5">
 														<li>Video belajar</li>
 														<li>Pre-test</li>
@@ -270,7 +279,12 @@
 												<div id="div-enroll-2" class="py-4">
 													<form class="form-enroll sidebar_inner" action="#!" method="post">
 														<input class="btn btn-primary" type="submit" id="enroll" value="Daftar"/>
-														<p class="px-0 py-3 col-10"><input type="checkbox" name="tnc" value="tnc"> I would like to receive email from Tsinghua University and learn about</p> 
+														<div class="form-check pt-2 d-none">
+															<input class="form-check-input" type="checkbox" value="tnc" id="tnc" name="tnc">
+															<label class="form-check-label" for="tnc">
+																I would like to receive email from Tsinghua University and learn about
+															</label>
+														</div>
 													</form>
 												</div>
 											</div>
@@ -278,6 +292,17 @@
 									</div>
 								</div>
 							</div>
+						</div>
+						<div id="sticky-bottom">
+							<form class="form-enroll sidebar_inner" action="#!" method="post">
+								<input class="btn btn-primary w-100" type="submit" id="enroll" value="Daftar"/>
+								<div class="form-check pt-2 d-none">
+									<input class="form-check-input" type="checkbox" value="tnc" id="tnc" name="tnc">
+									<label class="form-check-label" for="tnc">
+										I would like to receive email from Tsinghua University and learn about
+									</label>
+								</div>
+							</form>
 						</div>	
 					</div>
 				</div>
@@ -309,8 +334,37 @@
 		</div>
 	</div>
 
+	<div class="modal fade" id="videoModalCenter" tabindex="-1" role="dialog">
+  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12 p-0 mb-2">
+								<h6 class="float-left title">Pelatihan</h6>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span class="ti-close" aria-hidden="true"></span>
+								</button>
+							</div>
+							<div class="col-12 p-0">
+								<video id="my_video" class="video-js vjs-default-skin vjs-big-play-centered" width="640px" height="320px" controls preload="none" poster='http://vjs.zencdn.net/v/oceans.png' data-setup='{ "techOrder": ["flash", "html5"], "aspectRatio":"640:320", "playbackRates": [1, 1.5, 2], "nativeControlsForTouch": true}'>
+									<source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+									<source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+    								<track kind="subtitles" src="<?php echo base_url('assets/video/srt/demo.vtt') ?>" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<?php $this->load->view("include/footer.php") ?>
 	<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery/js/jquery.sticky.js') ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/course-detail.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/libs/video-js/js/video.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/libs/video-js/js/videojs-flash.min.js') ?>"></script>
+	<script>videojs.options.flash.swf = '<?php echo base_url('assets/libs/video-js/video-js.swf') ?>';</script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/course-detail.js?v='.version) ?>"></script>
 </body>
 </html>

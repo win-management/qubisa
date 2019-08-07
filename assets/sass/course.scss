@@ -10,6 +10,9 @@
 				background-color: #F11515;
 				color: #ffffff;
 				font-size: 1.25rem;
+				@media (max-width: 992px) { 
+					font-size: 16px;
+				}
 			}
 			&:last-child{
 				margin-bottom: 50px;
@@ -52,25 +55,7 @@
 }
 
 .card-view{
-	>p{
-		font-size: 1.125rem;
-		font-weight: 600;
-		color: #f11515;
-		margin-bottom: 0px;
-	}
-	.card-item{
-		box-shadow: 0 1px 3px 0 rgba(20,23,28,.15);
-		a{
-			text-decoration: none;
-		}
-		div{
-			p{
-				font-size:0.875rem;
-				color:#070001;
-				&:first-child{
-					margin-bottom: 0px;
-				}
-			}
-		}
+	@media (min-width: 768px) { 
+		margin-left: 10px;
 	}
 }
