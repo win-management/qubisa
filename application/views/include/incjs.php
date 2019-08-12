@@ -1,0 +1,11 @@
+<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery/js/jquery.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery-ui/js/jquery-ui.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/popper.js/js/popper.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/bootstrap/js/bootstrap.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/bootstrap-select/js/bootstrap-select.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/modernizr.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/css-scrollbars.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery/js/jquery.mCustomScrollbar.concat.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/libs/aos/js/aos.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/cons.js?v='.version) ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/main.js?v='.version) ?>"></script>

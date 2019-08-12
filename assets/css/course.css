@@ -20,15 +20,32 @@
 #filter > ul > li:last-child {
   margin-bottom: 50px;
 }
-#filter > ul > li > ul {
-  padding: 15px 0px;
-  color: #0a0a0a;
+#filter > ul > li:last-child > ul {
+  padding-bottom: 15px;
 }
-#filter > ul > li > ul > li {
-  padding: 0px 15px;
+#filter > ul > li > ul {
+  padding-top: 15px;
+  color: #0a0a0a;
 }
 #filter > ul > li > ul > li:first-child {
   font-weight: 600;
+  padding: 4px 15px 0px 15px;
+}
+#filter > ul > li > ul > li:not(:first-child):not(.toggle):not(.sub-filter):hover {
+  color: #f11515;
+  width: 99.9%;
+  background-color: #f2f3f5;
+}
+#filter > ul > li > ul > li a {
+  padding: 0px 15px;
+  width: 100%;
+  display: inline-block;
+  color: #0a0a0a;
+  margin-bottom: -6px;
+}
+#filter > ul > li > ul > li a:hover {
+  text-decoration: none;
+  color: #f11515;
 }
 #filter > ul > li > ul > li p {
   margin-bottom: 0px;
@@ -40,14 +57,21 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  height: 24px;
 }
 #filter > ul > li > ul > li.sub-filter {
   display: none;
 }
+#filter > ul > li > ul > li.sub-filter li:hover {
+  color: #f11515;
+  width: 99.9%;
+  background-color: #f2f3f5;
+}
 #filter > ul > li > ul > li.toggle a {
   font-weight: 600;
   color: inherit;
+}
+#filter > ul > li > ul > li.toggle a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {

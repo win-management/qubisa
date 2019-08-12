@@ -1,0 +1,143 @@
+section{
+	&#breadcrumb-container{
+		background-color: #f7f8fa;
+    	min-height: 44px;
+		nav{
+			border: none;
+			background-color: #f7f8fa;
+			ol{
+				background: none;
+				font-size: 13px;
+				margin-bottom: 0px;
+				li{
+					&.breadcrumb-item+.breadcrumb-item{
+						&:before{
+							color: #686f7a;
+							content: '>'
+						}
+					}
+					i,a{
+						color: #686f7a;
+						font-weight: 700;
+					}
+					&.active{
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+
+	&#main-content{
+		.card-view{
+			margin-left:0px;
+			margin-right:0px;
+			a{
+				text-decoration: none;
+			}
+			>p{
+				font-size: 1.125rem;
+				font-weight: 600;
+				color: #f11515;
+				margin-bottom: 0px;
+			}
+			.card-item{
+				box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+				div{
+					p{
+						font-size:0.875rem;
+						color:#070001;
+						&:first-child{
+							margin-bottom: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&#main-slide-2{
+		img{
+			width: 100%;
+		}
+		>div{
+			position: relative;
+		}
+		div{
+			&.overlay{
+				position: absolute;
+				opacity: 0.84;
+				width: 100%;
+				bottom: 0px;
+				height: 48px;
+				background-color: #f11515;
+			}
+			&.title{
+				width: 100%;
+				position: absolute;
+				bottom: 0px;
+				p{
+					margin-bottom: 0px;
+					font-size: 20px;
+					font-weight: 600;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+
+	&#main-slide-3{
+		img{
+			width: 100%;
+		}
+		>div{
+			position: relative;
+			background-image: url("../img/course/subject/main-image.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			@media (max-width: 767px) { 
+				background-image: url("../img/course/subject/main-image-m.jpg");
+			}
+		}
+		div{
+			&.overlay{
+				background-color: #aa222f;
+				opacity: 0.44;
+				height: 150px;	
+			}
+			&.title{
+				padding: 20px;
+				position: absolute;
+				bottom: 0px;
+				width: 100%;	
+				height: 100%;
+				z-index: 99;
+				.container{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					p{
+						margin-bottom: 0px;
+						font-size: 14px;
+						font-weight: 600;
+						color: #ffffff;
+						&:first-child{
+							font-size: 24px;
+							margin-bottom: 10px;
+							@media (max-width: 767px) { 
+								font-size: 20px;
+							}
+						}
+						&:last-child{
+							position: relative;
+							top: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

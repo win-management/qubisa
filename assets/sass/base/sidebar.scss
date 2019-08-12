@@ -1,0 +1,118 @@
+#sidebar {
+    width: 285px;
+    position: fixed;
+    top: 0;
+    left: -285px;
+    height: 100vh;
+    z-index: 999;
+    -webkit-transition: 600ms cubic-bezier(.42,0,0,.99);
+    -moz-transition: 600ms cubic-bezier(.42,0,0,.99);
+    -ms-transition: 600ms cubic-bezier(.42,0,0,.99);
+    -o-transition: 600ms cubic-bezier(.42,0,0,.99);
+    transition: 600ms cubic-bezier(.42,0,0,.99);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	overflow-y: scroll;
+	background: #fff;
+	max-width: 80%;
+	&.active {
+		left: 0;
+	}
+	.sidebar-header{
+		padding: 16px;
+		background: #f2f3f5;
+		a{
+			&:hover{
+				text-decoration: none;
+			}
+			.d-profile{
+				div{
+					&:last-child{
+						padding-left: 3px;
+					}
+					img{
+						width: 50px;
+					}
+					p{
+						margin-bottom: 0px;
+						color: #29303b;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						font-weight: 500;
+						font-size: 18px;
+						&:last-child{
+							font-size: 13px;
+							margin-top: -3px;
+						}
+					}
+				}
+			}
+		}
+	}
+	ul{
+		li{
+			color: #29303b;
+			padding: 11px 16px;
+			a{
+				color: #29303b;
+				font-size: 15px;
+				font-weight: 500;
+				width: 100%;
+				display: inline-block;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			&.menu-label{
+				a{
+					font-size: 13px;
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+			}
+			&.menu-link{
+				padding: 4px 16px 4px;
+			}
+		}
+	}
+}
+
+#dismiss {
+	display: none;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.main-overlay {
+    display: none;
+	position: fixed;
+	top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 998;
+    opacity: 0;
+	-webkit-transition: opacity 200ms ease-out;
+    -moz-transition: opacity 200ms ease-out;
+    -ms-transition: opacity 200ms ease-out;
+    -o-transition: opacity 200ms ease-out;
+    transition: opacity 200ms ease-out;
+    background-color: rgba(41,48,59,.55);
+	&.active {
+		display: block;
+		opacity: 1;
+	}
+}

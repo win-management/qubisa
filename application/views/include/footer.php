@@ -19,32 +19,20 @@
       </div>
 	  <hr class="clearfix w-100 d-md-none pb-3">		
       <div class="col-md-4">
-				<ul class="list-unstyled download-app text-center">
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-google-play.png') ?>" alt=""></a></li>
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-apps-store.png') ?>" alt=""></a></li>
-				</ul>
-				<ul class="list-unstyled social-media text-center">
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-facebook.png') ?>" alt=""></a></li>
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-instagram.png') ?>" alt=""></a></li>
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-linkedin.png') ?>" alt=""></a></li>
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-twitter.png') ?>" alt=""></a></li>
-						<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-youtube.png') ?>" alt=""></a></li>
-				</ul>
-				<div class="footer-copyright text-center pb-1 pb-sm-3">© <?php echo date("Y");?> QuBisa.com</div>
+		<ul class="list-unstyled download-app text-center">
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-google-play.png') ?>" alt=""></a></li>
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-apps-store.png') ?>" alt=""></a></li>
+		</ul>
+		<ul class="list-unstyled social-media text-center">
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-facebook.png') ?>" alt=""></a></li>
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-instagram.png') ?>" alt=""></a></li>
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-linkedin.png') ?>" alt=""></a></li>
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-twitter.png') ?>" alt=""></a></li>
+				<li><a href="#!"><img src="<?php echo base_url('assets/img/ic-youtube.png') ?>" alt=""></a></li>
+		</ul>
+		<div class="footer-copyright text-center pb-1 pb-sm-3">© <?php echo date("Y");?> QuBisa.com</div>
       </div>
     </div>
   </div>
-
 </footer>
 <!-- Footer -->
-
-<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery/js/jquery.min.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/jquery-ui/js/jquery-ui.min.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/popper.js/js/popper.min.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/bootstrap/js/bootstrap.min.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/bootstrap-select/js/bootstrap-select.min.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/modernizr.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/modernizr/js/css-scrollbars.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/libs/aos/js/aos.js') ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/js/cons.js?v='.version) ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/js/main.js?v='.version) ?>"></script>

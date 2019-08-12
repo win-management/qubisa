@@ -1,5 +1,5 @@
 section{
-	&#content{
+	&#main-content{
 		.row{
 			>div{
 				@media (max-width: 767px) { 
@@ -68,12 +68,21 @@ section{
 									text-align: center;
 									width: 80px;
 									height: 80px;
+									cursor: pointer;
 									img{
 										width: 25px;
 										margin-top: 10px;
+										&.selected{
+											width: 80px;
+											border-radius: 50%;
+											height: 80px;
+											margin-left: -2.5px;
+											margin-top: -2.5px;
+											border: solid 2.5px transparent;
+										}
 									}
 									p{
-										font-size: 12px;
+										font-size: 11px;
 										margin-top:5px;
 									}
 								}

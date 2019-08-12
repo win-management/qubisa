@@ -1,5 +1,5 @@
 section{
-	&#content{
+	&#main-content{
 		margin-top: 0px;
 		.subject-title{
 			p{
@@ -122,9 +122,21 @@ section{
 		}
 		#search-bottom-container{
 			margin-left: -85px;
+			@media (min-width: 768px) and (max-width: 992px) { 
+				width: 400px;
+				margin-left: -150px;
+			}
+			@media (width: 768px) { 
+				width: 70%;
+			}
+			@media (max-width: 767px) { 
+				width: 87%;
+			}
 			ul{
-				top: 150px !important;
 				text-align: left;
+				@media (min-width: 768px) { 
+					top: 150px !important;
+				}
 			}
 		}
 	}
