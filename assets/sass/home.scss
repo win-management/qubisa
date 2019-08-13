@@ -187,33 +187,6 @@ section{
 	}
 }
 
-#viewed-course{
-	.owl-carousel{
-		.card-item{
-			img{
-				width:100%;
-			}
-			div{
-				p{
-					&:first-child{
-						font-weight: 800;
-						font-size: 16px;
-						span{
-							font-weight: 600;
-							font-size: 14px;
-						}
-					}
-					&.info-status{
-						text-transform: uppercase;
-						font-weight: 600;
-						font-size: 11px;
-					}
-				}
-			}
-		}
-	}
-}
-
 #participant-course{
 	.owl-carousel{
 		.card-item{

@@ -28,34 +28,6 @@ section{
 		}
 	}
 
-	&#main-content{
-		.card-view{
-			margin-left:0px;
-			margin-right:0px;
-			a{
-				text-decoration: none;
-			}
-			>p{
-				font-size: 1.125rem;
-				font-weight: 600;
-				color: #f11515;
-				margin-bottom: 0px;
-			}
-			.card-item{
-				box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-				div{
-					p{
-						font-size:0.875rem;
-						color:#070001;
-						&:first-child{
-							margin-bottom: 0px;
-						}
-					}
-				}
-			}
-		}
-	}
-
 	&#main-slide-2{
 		img{
 			width: 100%;

@@ -89,132 +89,114 @@
 			<section id="viewed-course" class="my-5">
 				<div class="container">
 					<h6 class="pb-3 mb-0 title">Peserta melihat</h6>
-					<div class="owl-carousel owl-viewed-course owl-theme">
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-1.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Isyana</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+					<div class="owl-carousel owl-viewed-course owl-theme card-view">
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-1.png') ?>" alt="">
+								<div class="p-3">
+									<p>Strategy and Perfomance Execution Challenge For Line Manager</p>
+									<p class="author">LUTAN EDUKASI</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Mark Hugh</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-2.png') ?>" alt="">
+								<div class="p-3">
+									<p>Konsep Adaptive Learning Design Dengan Menggunakan BLOOMS TAXONOMY MODELS</p>
+									<p class="author">GML Consulting</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-3.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Isvana</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-3.png') ?>" alt="">
+								<div class="p-3">
+									<p>The Complete Web Developer Course 2.0</p>
+									<p class="author">LUTAN EDUKASI</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Robert</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-4.png') ?>" alt="">
+								<div class="p-3">
+									<p>Build Responsive Real World Websites with HTML5 and CSS3</p>
+									<p class="author">GML Consulting</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Jason</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-5.png') ?>" alt="">
+								<div class="p-3">
+									<p>Photography Masterclass: A Complete Guide to Photography</p>
+									<p class="author">LUTAN EDUKASI</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
-						<div class="item card-view">
-							<div class="card-item">
-								<a href="<?php echo gDomainCourseDetail ?>">
-									<div>
-										<img src="<?php echo base_url('assets/img/home/course-2.png') ?>" alt="">
-										<div class="p-3">
-											<p>Coaching<br/><span>Steve Light</span></p>
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-												<i class="fa fa-star-o"></i>
-												<span class="rating-text">4,7 (13)</span>
-											</div>
-											<p class="info-status my-3">Free course</p>
-										</div>
+						<div class="item card-item">
+							<a href="<?php echo gDomainCourseDetail ?>">
+								<img src="<?php echo base_url('assets/img/course/course-6.png') ?>" alt="">
+								<div class="p-3">
+									<p>Yoast SEO: Write a SEO Optimized Articles in 10 Minutes</p>
+									<p class="author">GML Consulting</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rating-text">4,7 (13)</span>
 									</div>
-								</a>
-							</div>
+									<p class="info-status my-3">Free course</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>

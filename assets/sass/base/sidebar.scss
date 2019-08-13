@@ -65,6 +65,12 @@
 				display: inline-block;
 				&:hover{
 					text-decoration: none;
+					color: #f11515;
+				}
+			}
+			&.menu-label, &.menu-link{
+				&:active,&:focus,&:hover{
+					background-color: #f2f3f5;
 				}
 			}
 			&.menu-label{
