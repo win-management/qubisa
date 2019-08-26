@@ -1,3 +1,24 @@
+function openVideo(id, title){
+	if(id == 1){
+		videojs('video-course').src(g_DomainFiles+"/files/courses/1/videos/1.mp4");
+		$('#videoModalCenter h6').html('Modul 1 - Video 1 - '+title);
+	}else if(id == 2){
+		videojs('video-course').src(g_DomainFiles+"/files/courses/1/videos/2.mp4");
+		$('#videoModalCenter h6').html('Modul 1 - Video 2 - '+title);
+	}else if(id == 3){
+		videojs('video-course').src(g_DomainFiles+"/files/courses/1/videos/3.mp4");
+		$('#videoModalCenter h6').html('Modul 2 - Video 1 - '+title);
+	}else if(id == 4){
+		videojs('video-course').src(g_DomainFiles+"/files/courses/1/videos/4.mp4");
+		$('#videoModalCenter h6').html('Modul 2 - Video 2 - '+title);
+	}else if(id == 5){
+		videojs('video-course').src(g_DomainFiles+"/files/courses/1/videos/5.mp4");
+		$('#videoModalCenter h6').html('Modul 3 - Video 1 - '+title);
+	}
+
+	$('#videoModalCenter').modal('show'); 
+}
+
 $(document).ready(function() {
 	 $('#videoModalCenter').on('hidden.bs.modal', function (e) {
 		var player = videojs('video-course');        

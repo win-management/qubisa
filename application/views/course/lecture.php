@@ -108,7 +108,7 @@
 																<p>Modul 1</p>
 																<ul class="list-unstyled row">
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
-																		<div class="module">
+																		<div class="module" onclick="openVideo(1, 'Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager')">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-video.png') ?>" alt=""/>
 																			<p>Video 1</p>
 																		</div>
@@ -120,7 +120,7 @@
 																		</div>
 																	</li>
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
-																		<div class="module">
+																		<div class="module" onclick="openVideo(2, 'Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager')">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-video.png') ?>" alt=""/>
 																			<p>Video 2</p>
 																		</div>
@@ -128,7 +128,7 @@
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
 																		<div class="module">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-quiz.png') ?>" alt=""/>
-																			<p>Quiz 2</p>
+																			<p>Quiz 1</p>
 																		</div>
 																	</li>
 																</ul>
@@ -145,7 +145,7 @@
 																<p>Modul 2</p>
 																<ul class="list-unstyled row">
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
-																		<div class="module">
+																		<div class="module" onclick="openVideo(3, 'Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager')">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-video.png') ?>" alt=""/>
 																			<p>Video 1</p>
 																		</div>
@@ -157,7 +157,7 @@
 																		</div>
 																	</li>
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
-																		<div class="module">
+																		<div class="module" onclick="openVideo(4, 'Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager')">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-video.png') ?>" alt=""/>
 																			<p>Video 2</p>
 																		</div>
@@ -176,7 +176,7 @@
 																<p>Modul 3</p>
 																<ul class="list-unstyled row">
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
-																		<div class="module">
+																		<div class="module" onclick="openVideo(5, 'Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager')">
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-video.png') ?>" alt=""/>
 																			<p>Video 1</p>
 																		</div>
@@ -323,8 +323,8 @@
 										</button>
 									</div>
 									<div class="col-12 p-0">
-										<video id="video-course" class="video-js vjs-default-skin vjs-big-play-centered" width="640px" height="400px" controls preload="none" poster='https://qubisastorage.blob.core.windows.net/files/courses/1/images/img/1.jpg' data-setup='{ "techOrder": ["flash", "html5"], "aspectRatio":"640:400", "playbackRates": [1, 1.5, 2], "nativeControlsForTouch": true}'>
-											<source src="https://qubisastorage.blob.core.windows.net/files/courses/1/videos/preview.mp4" type='video/mp4' />
+										<video id="video-course" class="video-js vjs-default-skin vjs-big-play-centered" width="640px" height="400px" controls preload="none" poster='<?php echo gDomainFiles ?>/files/courses/1/images/img/1.png' data-setup='{ "techOrder": ["flash", "html5"], "aspectRatio":"640:400", "playbackRates": [1, 1.5, 2], "nativeControlsForTouch": true}'>
+											<source src="<?php echo gDomainFiles ?>/files/courses/1/videos/preview.mp4" type='video/mp4' />
 											<!--source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
 											<track kind="subtitles" src="<?php echo base_url('assets/video/srt/demo.vtt') ?>" srclang="en" label="English"></track-->										
 										</video>

@@ -135,7 +135,7 @@
 													<div class="pb-4">
 														<h6>Instruktur</h6>
 														<div class="item-people">
-															<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/course/logo-lutan.png') ?>" alt="">
+															<img data-toggle="modal" data-target="#peopleModalCenter" class="rounded-circle" src="<?php echo base_url('assets/img/course/logo-lutan.png?v=0.1') ?>" alt="">
 															<p data-toggle="modal" data-target="#peopleModalCenter" class="pt-3 author-title">LUTAN EDUKASI</p>
 														</div>
 													</div>
@@ -422,7 +422,7 @@
 									</div>
 									<div class="col-12 p-0">
 										<video id="video-course" class="video-js vjs-default-skin vjs-big-play-centered" width="640px" height="400px" controls preload="none" poster='<?php echo gDomainFiles ?>/files/courses/1/images/img/1.png' data-setup='{ "techOrder": ["flash", "html5"], "aspectRatio":"640:400", "playbackRates": [1, 1.5, 2], "nativeControlsForTouch": true}'>
-											<source src="https://qubisastorage.blob.core.windows.net/files/courses/1/videos/preview.mp4" type='video/mp4' />
+											<source src="<?php echo gDomainFiles ?>/files/courses/1/videos/preview.mp4" type='video/mp4' />
 											<!--source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
 											<track kind="subtitles" src="<?php echo base_url('assets/video/srt/demo.vtt') ?>" srclang="en" label="English"></track-->										
 										</video>
