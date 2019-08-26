@@ -376,4 +376,13 @@
   background-color: #f1f2f2;
 }
 
+#videoModalCenter h6 {
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  -o-line-clamp: 2;
+  line-clamp: 2;
+  line-height: 23px;
+}
+
 /*# sourceMappingURL=lecture.css.map */
