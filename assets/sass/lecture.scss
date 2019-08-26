@@ -30,6 +30,7 @@
 									ul{
 										li{
 											.module{
+												position: relative;
 												margin: 0 auto;
 												margin-bottom: 20px;
 												max-width: 135px;
@@ -55,6 +56,25 @@
 													@media(max-width: 768px){
 														font-size: 11px;
 													}
+												}
+												.img-lock, .m-lock{
+													position: absolute;
+													cursor: initial;
+												}
+												.m-lock{
+													top: 0px;
+													left: 0px;
+													width: 100%;
+													height: 100%;
+													background-color: #707070;
+													border-radius: 10px;
+													opacity: 0.65;
+													z-index: 0;
+												}
+												.img-lock{
+													margin-left: 12px;
+													z-index: 1;
+													width: 50%;
 												}
 											}
 										}
@@ -91,6 +111,25 @@
 									th{
 										font-weight: 500;
 										padding-left: 19px;
+									}
+									tr{
+										&.my-score{
+											color: #0e73ba;
+										}
+										td{
+											&.dots{
+												padding: 0px;
+												span{
+													background-color: #0e73ba;
+													width: 8px;
+													height: 8px;
+													border-radius: 50%;
+													display: block;
+													margin-top: 8px;
+													margin-left: 23px;
+												}
+											}
+										}
 									}
 								}
 								.my-rating{

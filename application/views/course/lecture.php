@@ -202,6 +202,8 @@
 																<ul class="list-unstyled row">
 																	<li class="col-6 col-sm-4 col-md-3 col-lg-2">
 																		<div class="module">
+																			<img class="img-lock" src="<?php echo base_url('assets/img/course/icon/ic-lock.png') ?>" alt=""/>
+																			<div class="m-lock"></div>
 																			<img src="<?php echo base_url('assets/img/course/icon/ic-posttest.png') ?>" alt=""/>
 																		</div>
 																	</li>
@@ -289,6 +291,14 @@
 																	<td>Cupid</td>
 																	<td>90</td>
 																</tr>
+																<tr>
+																	<td class="dots"><span></span><span></span><span></span></td>
+																</tr>
+																<tr class="my-score">
+																	<th scope="row">78</th>
+																	<td>Alex</td>
+																	<td>75</td>
+																</tr>
 															</tbody>
 														</table>
 													</div>
@@ -296,7 +306,7 @@
 												<div class="bg-gray container">
 													<div class="row pl-3 py-5">
 														<div class="my-rating col-12 py-5">
-															<p class="font-weight-600">Anda berada di peringkat 3 dari 99 orang</p>
+															<p class="font-weight-600">Anda berada di peringkat 78 dari 99 orang</p>
 														</div>
 													</div>
 												</div>
