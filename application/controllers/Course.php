@@ -16,7 +16,11 @@ class Course extends CI_Controller{
 		$this->load->view("course/detail");
 	}
 
-	public function mycourse(){
-		$this->load->view("course/mycourse");
+	public function enroll(){
+		redirect(gDomainCourseLecture);
+	}
+
+	public function lecture(){
+		$this->load->view("course/lecture");
 	}
 }

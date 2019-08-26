@@ -55,6 +55,7 @@
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kursus</a>
 					<ul class="dropdown-menu dropdown-menu-left <?php if(isset($_SESSION['user_id'])){?>is-user<?php } ?> animate slideIn" aria-labelledby="navbarDropdown">
 						<li class="dropdown-item disabled">Kategori Kursus <a href="<?php echo gDomainCourse?>" class="btn btn-primary">Lihat Semua Kursus</a></li>
+						<li class="dropdown-item"><a href="<?php echo gDomainCourseSubject?>">Strategy</a></li>
 						<li class="dropdown-item"><a href="<?php echo gDomainCourseSubject?>">Coaching</a></li>
 						<li class="dropdown-item"><a href="<?php echo gDomainCourseSubject?>">Communication</a></li>
 						<li class="dropdown-item"><a href="<?php echo gDomainCourseSubject?>">Customer Service</a></li>
@@ -75,7 +76,7 @@
 			<?php if(isset($_SESSION['user_id'])){?>
 				<ul class="navbar-nav ml-auto nav-profile">
 					<li class="nav-item hidden-sm">
-						<a class="nav-link" href="#!">Instruktur</a>
+						<a class="nav-link" href="<?php echo gDomainInstructor ?>">Instruktur</a>
 					</li>
 					<li class="nav-item hidden-sm">
 						<a class="nav-link" href="<?php echo gDomainMyCourse ?>">Kursus Qu</a>
@@ -126,7 +127,7 @@
 								</a>
 							</li>
 							<!--li class="dropdown-item"><a href="<?php echo gDomainProfile?>">Profile Qu</a></li-->
-							<li class="dropdown-item hidden-md-up"><a href="<?php echo "#!"?>">Instruktur</a></li>
+							<li class="dropdown-item hidden-md-up"><a href="<?php echo gDomainInstructor ?>">Instruktur</a></li>
 							<li class="dropdown-item hidden-md-up"><a href="<?php echo gDomainMyCourse?>">Kursus Qu</a></li>
 							<li class="dropdown-item"><a href="<?php echo gDomainSupport?>">Dukungan</a></li>
 							<li class="dropdown-item"><a href="<?php echo gDomainSignOut?>">Keluar</a></li>

@@ -94,7 +94,7 @@
 									<a href="<?php echo gDomainCourseDetail ?>">
 										<img src="<?php echo base_url('assets/img/course/course-1.png') ?>" class="img-fluid" alt="">
 										<div class="p-3">
-											<p>Strategy and Perfomance Execution Challenge For Line Manager</p>
+											<p>Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager</p>
 											<p class="author">LUTAN EDUKASI</p>
 											<div class="rating">
 												<i class="fa fa-star-o"></i>

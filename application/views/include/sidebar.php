@@ -62,7 +62,7 @@
 			<a href="<?php echo gDomainMyCourse ?>">Kursus Qu</a>
 		</li>
 		<li class="menu-label pb-0">
-			<a href="#!">Instruktur</a>
+			<a href="<?php echo gDomainInstructor ?>">Instruktur</a>
 		</li>
 		<li class="menu-label">
 			<a href="<?php  echo gDomainSignOut?>">Keluar</a>

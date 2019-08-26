@@ -1,0 +1,105 @@
+@import 'course-detail';
+
+#main-slide-detail{
+	background-image: url('../img/course/main-image-2.png');
+}
+
+#content{
+	>.container{
+		>.row{
+			>.col-12{
+				>div{
+					#detail-tab-content{
+						#div-topic{
+							>ul{
+								>li{
+									padding-bottom: 1.5rem!important;
+									padding-top: 1.5rem!important;
+									margin-left: 0.5px;
+									margin-right: 0.5px;
+									&:nth-child(odd){
+										background-color: #f1f2f2;
+									}
+
+									p{
+										font-weight: 600;
+										@media(min-width: 1280px){
+											margin-left: 14px;
+										}
+									}
+									ul{
+										li{
+											.module{
+												margin: 0 auto;
+												margin-bottom: 20px;
+												max-width: 135px;
+												padding: 20px;
+												background-color: #fff;
+												-webkit-backdrop-filter: blur(15px);
+												backdrop-filter: blur(15px);
+												box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+												border-radius: 10px;
+												cursor: pointer;
+												img{
+													width: 80%;
+													max-width: 70px;
+													margin: 0 auto;
+													display: block;
+												}
+												p{
+													text-align: center;
+													margin-bottom: 0px;
+													margin-top: 10px;
+													margin-left: 0px;
+													font-size: 13px;
+													@media(max-width: 768px){
+														font-size: 11px;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						#div-ratings{
+								.star-red{
+									background-image: url('../img/course/icon/ic-star-red.png');
+								}
+								.star-blue{
+									background-image: url('../img/course/icon/ic-star-blue.png');
+								}
+								.star-green{
+									background-image: url('../img/course/icon/ic-star-green.png');
+								}
+								.star{
+									background-size: 45px;
+									background-repeat: no-repeat;
+									color: #fff;
+								}
+								.title{
+									p{
+										text-decoration: underline;
+										font-weight: 600;
+									}
+								}
+								table{
+									margin-left: 16px;
+									th,td{
+										border:none;
+									}
+									th{
+										font-weight: 500;
+										padding-left: 19px;
+									}
+								}
+								.my-rating{
+									background-color: #f1f2f2;
+								}
+						}
+					}
+				}
+			}
+		}
+	}
+}

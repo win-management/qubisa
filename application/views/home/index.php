@@ -92,9 +92,9 @@
 					<div class="owl-carousel owl-viewed-course owl-theme card-view">
 						<div class="item card-item">
 							<a href="<?php echo gDomainCourseDetail ?>">
-								<img src="<?php echo base_url('assets/img/course/course-1.png') ?>" alt="">
+								<img src="<?php echo gDomainFiles ?>/files/courses/1/images/img/1.png" alt="">
 								<div class="p-3">
-									<p>Strategy and Perfomance Execution Challenge For Line Manager</p>
+									<p>Strategy and Perfomance Execution Excellence (SPEx2) For Line Manager</p>
 									<p class="author">LUTAN EDUKASI</p>
 									<div class="rating">
 										<i class="fa fa-star"></i>

@@ -93,6 +93,8 @@ define('SITE_NAME', 'QuBisa');
 define('version', '0.1');
 
 define('gDomainName', 'http://localhost/qubisa');
+define('gDomainFiles', 'https://qubisastorage.blob.core.windows.net');
+define('gDomainInstructor', 'http://localhost/tqubisa');
 
 define('gDomainSignIn', gDomainName.'/signin');
 define('gDomainSignUp', gDomainName.'/signup');
@@ -110,3 +112,4 @@ define('gDomainAccount', gDomainName.'/user/edit-account');
 define('gDomainCourse', gDomainName.'/courses');
 define('gDomainCourseSubject', gDomainCourse.'/subject');
 define('gDomainCourseDetail', gDomainCourse.'/detail');
+define('gDomainCourseLecture', gDomainCourse.'/lecture');

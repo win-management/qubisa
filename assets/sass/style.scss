@@ -95,6 +95,18 @@ hr{
 	}
 }
 
+.bg-gray{
+	background-color: #f1f2f2;
+}
+
+.font-weight-600{
+	font-weight: 600;
+}
+
+.progress-bar{
+	background: #0e73ba;
+}
+
 .rating {
 	min-height: 22px;
 	>i{
@@ -228,5 +240,23 @@ input[type="checkbox"]{
 	input[type="checkbox"]{
 		position: absolute;
 		top: 6px;
+	}
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    margin: 0 auto;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.modal{
+	.modal-content{
+		border: none;
+    	border-radius: 0px;
 	}
 }

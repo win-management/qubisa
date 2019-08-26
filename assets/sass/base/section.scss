@@ -53,6 +53,21 @@ section{
 					font-size: 20px;
 					font-weight: 600;
 					color: #ffffff;
+					display: -webkit-box !important;
+					-webkit-line-clamp: 1;
+					-moz-line-clamp: 1;
+					-ms-line-clamp: 1;
+					-o-line-clamp: 1;
+					line-clamp: 1;
+					-webkit-box-orient: vertical;
+					-moz-box-orient: vertical;
+					-ms-box-orient: vertical;
+					-o-box-orient: vertical;
+					box-orient: vertical;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: normal;
+					height: 44px;
 				}
 			}
 		}
